@@ -93,6 +93,21 @@
 		};
 		perUserProjectItems = {
 			782E40C812EA2535000CB400 /* PBXTextBookmark */ = 782E40C812EA2535000CB400 /* PBXTextBookmark */;
+			782E40DD12EA3033000CB400 /* PBXTextBookmark */ = 782E40DD12EA3033000CB400 /* PBXTextBookmark */;
+			782E40DE12EA3033000CB400 /* PBXTextBookmark */ = 782E40DE12EA3033000CB400 /* PBXTextBookmark */;
+			782E40DF12EA3033000CB400 /* PBXTextBookmark */ = 782E40DF12EA3033000CB400 /* PBXTextBookmark */;
+			782E40E012EA3033000CB400 /* PBXTextBookmark */ = 782E40E012EA3033000CB400 /* PBXTextBookmark */;
+			782E40E112EA3033000CB400 /* PBXTextBookmark */ = 782E40E112EA3033000CB400 /* PBXTextBookmark */;
+			782E40E212EA3033000CB400 /* PBXTextBookmark */ = 782E40E212EA3033000CB400 /* PBXTextBookmark */;
+			782E40E612EA3045000CB400 /* XCBuildMessageTextBookmark */ = 782E40E612EA3045000CB400 /* XCBuildMessageTextBookmark */;
+			782E40E712EA3045000CB400 /* PBXTextBookmark */ = 782E40E712EA3045000CB400 /* PBXTextBookmark */;
+			782E40EC12EA31F5000CB400 /* PBXTextBookmark */ = 782E40EC12EA31F5000CB400 /* PBXTextBookmark */;
+			782E40ED12EA31F5000CB400 /* PBXTextBookmark */ = 782E40ED12EA31F5000CB400 /* PBXTextBookmark */;
+			782E40EE12EA31F5000CB400 /* PBXTextBookmark */ = 782E40EE12EA31F5000CB400 /* PBXTextBookmark */;
+			782E40EF12EA31F5000CB400 /* PBXTextBookmark */ = 782E40EF12EA31F5000CB400 /* PBXTextBookmark */;
+			782E40F412EA32C9000CB400 /* PBXTextBookmark */ = 782E40F412EA32C9000CB400 /* PBXTextBookmark */;
+			782E40F512EA32C9000CB400 /* PBXTextBookmark */ = 782E40F512EA32C9000CB400 /* PBXTextBookmark */;
+			782E40F612EA32C9000CB400 /* PBXTextBookmark */ = 782E40F612EA32C9000CB400 /* PBXTextBookmark */;
 			7830258712E3A2A50027325D = 7830258712E3A2A50027325D /* PBXTextBookmark */;
 			7830258912E3A2A50027325D = 7830258912E3A2A50027325D /* PBXTextBookmark */;
 			7830259512E3A2D70027325D = 7830259512E3A2D70027325D /* PBXTextBookmark */;
@@ -176,10 +191,159 @@
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		name = "TagListTableViewController.m: 21";
 		rLen = 0;
-		rLoc = 415;
+		rLoc = 456;
 		rType = 0;
 		vrLen = 1757;
 		vrLoc = 0;
+	};
+	782E40DD12EA3033000CB400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7830256B12E39F850027325D /* ContactListTableViewController.m */;
+		name = "ContactListTableViewController.m: 130";
+		rLen = 113;
+		rLoc = 4395;
+		rType = 0;
+		vrLen = 1290;
+		vrLoc = 3361;
+	};
+	782E40DE12EA3033000CB400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE566E12E8E0A4006A3074 /* TagListTableViewController.h */;
+		name = "TagListTableViewController.h: 17";
+		rLen = 38;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 334;
+		vrLoc = 0;
+	};
+	782E40DF12EA3033000CB400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE563412E8DABF006A3074 /* PhotoListTableViewController.h */;
+		name = "PhotoListTableViewController.h: 16";
+		rLen = 0;
+		rLoc = 283;
+		rType = 0;
+		vrLen = 333;
+		vrLoc = 0;
+	};
+	782E40E012EA3033000CB400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
+		name = "PhotoListTableViewController.m: 29";
+		rLen = 0;
+		rLoc = 1014;
+		rType = 0;
+		vrLen = 1924;
+		vrLoc = 0;
+	};
+	782E40E112EA3033000CB400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
+		name = "TagListTableViewController.m: 175";
+		rLen = 0;
+		rLoc = 5703;
+		rType = 0;
+		vrLen = 1336;
+		vrLoc = 4871;
+	};
+	782E40E212EA3033000CB400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
+		name = "TagListTableViewController.m: 12";
+		rLen = 0;
+		rLoc = 269;
+		rType = 0;
+		vrLen = 1751;
+		vrLoc = 0;
+	};
+	782E40E612EA3045000CB400 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'TagListTableViewController' may not respond to '-wordAtIndexPath:'";
+		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 181;
+		rType = 1;
+	};
+	782E40E712EA3045000CB400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
+		name = "TagListTableViewController.m: 177";
+		rLen = 0;
+		rLoc = 5704;
+		rType = 0;
+		vrLen = 1101;
+		vrLoc = 5060;
+	};
+	782E40EC12EA31F5000CB400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7830256B12E39F850027325D /* ContactListTableViewController.m */;
+		name = "ContactListTableViewController.m: 67";
+		rLen = 219;
+		rLoc = 1759;
+		rType = 0;
+		vrLen = 1990;
+		vrLoc = 1503;
+	};
+	782E40ED12EA31F5000CB400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE566E12E8E0A4006A3074 /* TagListTableViewController.h */;
+		name = "TagListTableViewController.h: 17";
+		rLen = 38;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 334;
+		vrLoc = 0;
+	};
+	782E40EE12EA31F5000CB400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
+		name = "TagListTableViewController.m: 108";
+		rLen = 0;
+		rLoc = 2992;
+		rType = 0;
+		vrLen = 1744;
+		vrLoc = 147;
+	};
+	782E40EF12EA31F5000CB400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
+		name = "TagListTableViewController.m: 108";
+		rLen = 0;
+		rLoc = 3001;
+		rType = 0;
+		vrLen = 1428;
+		vrLoc = 2318;
+	};
+	782E40F412EA32C9000CB400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
+		name = "TagListTableViewController.m: 108";
+		rLen = 0;
+		rLoc = 3001;
+		rType = 0;
+		vrLen = 1428;
+		vrLoc = 2318;
+	};
+	782E40F512EA32C9000CB400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
+		name = "PhotoListTableViewController.m: 29";
+		rLen = 0;
+		rLoc = 1014;
+		rType = 0;
+		vrLen = 1821;
+		vrLoc = 0;
+	};
+	782E40F612EA32C9000CB400 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
+		name = "PhotoListTableViewController.m: 82";
+		rLen = 0;
+		rLoc = 2697;
+		rType = 0;
+		vrLen = 1308;
+		vrLoc = 1950;
 	};
 	7830255012E39DA40027325D /* yayapage */ = {
 		isa = PBXExecutable;
@@ -236,10 +400,10 @@
 	};
 	7830256B12E39F850027325D /* ContactListTableViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{3962, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{4013, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{4063, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 4860}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1104, 1976}}";
-			sepNavSelRange = "{4571, 0}";
-			sepNavVisRange = "{3493, 1309}";
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{3962, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{4013, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{4063, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 4651}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 1833}}";
+			sepNavSelRange = "{1759, 219}";
+			sepNavVisRange = "{1503, 1990}";
 		};
 	};
 	7830258712E3A2A50027325D /* PBXTextBookmark */ = {
@@ -477,16 +641,16 @@
 	};
 	78BE563412E8DABF006A3074 /* PhotoListTableViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1000, 587}}";
-			sepNavSelRange = "{214, 0}";
-			sepNavVisRange = "{0, 214}";
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 605}}";
+			sepNavSelRange = "{283, 0}";
+			sepNavVisRange = "{0, 333}";
 		};
 	};
 	78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1657, 1066}}";
-			sepNavSelRange = "{217, 0}";
-			sepNavVisRange = "{810, 1450}";
+			sepNavIntBoundsRect = "{{0, 0}, {1657, 1274}}";
+			sepNavSelRange = "{2697, 0}";
+			sepNavVisRange = "{1950, 1308}";
 		};
 	};
 	78BE563612E8DABF006A3074 /* FlickrAPIKey.h */ = {
@@ -511,7 +675,7 @@
 		comments = "'MyTableViewController' undeclared (first use in this function)";
 		fRef = 7830256B12E39F850027325D /* ContactListTableViewController.m */;
 		rLen = 1;
-		rLoc = 133;
+		rLoc = 130;
 		rType = 1;
 	};
 	78BE565A12E8DF87006A3074 /* PBXTextBookmark */ = {
@@ -521,7 +685,7 @@
 		rLen = 0;
 		rLoc = 99;
 		rType = 0;
-		vrLen = 641;
+		vrLen = 613;
 		vrLoc = 4247;
 	};
 	78BE565D12E8DF9A006A3074 /* PBXTextBookmark */ = {
@@ -559,7 +723,7 @@
 		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
 		name = "MyTableViewController.m: 48";
 		rLen = 0;
-		rLoc = 1925;
+		rLoc = 1948;
 		rType = 0;
 		vrLen = 1438;
 		vrLoc = 1287;
@@ -569,7 +733,7 @@
 		comments = "'MyTableViewController' undeclared (first use in this function)";
 		fRef = 7830256B12E39F850027325D /* ContactListTableViewController.m */;
 		rLen = 1;
-		rLoc = 133;
+		rLoc = 130;
 		rType = 1;
 	};
 	78BE566212E8DF9A006A3074 /* PBXTextBookmark */ = {
@@ -597,7 +761,7 @@
 		fRef = 78BE563412E8DABF006A3074 /* PhotoListTableViewController.h */;
 		name = "PhotoListTableViewController.h: 15";
 		rLen = 0;
-		rLoc = 214;
+		rLoc = 333;
 		rType = 0;
 		vrLen = 214;
 		vrLoc = 0;
@@ -617,24 +781,24 @@
 		fRef = 7830256B12E39F850027325D /* ContactListTableViewController.m */;
 		name = "ContactListTableViewController.m: 134";
 		rLen = 0;
-		rLoc = 4631;
+		rLoc = 4422;
 		rType = 0;
-		vrLen = 1405;
+		vrLen = 1367;
 		vrLoc = 3493;
 	};
 	78BE566E12E8E0A4006A3074 /* TagListTableViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1000, 587}}";
-			sepNavSelRange = "{51, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 605}}";
+			sepNavSelRange = "{289, 38}";
 			sepNavVisRange = "{0, 334}";
 		};
 	};
 	78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = \"number of sections\";\n            r = \"{2691, 22}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{5108, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{5159, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{5209, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 5954}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1531, 2513}}";
-			sepNavSelRange = "{415, 0}";
-			sepNavVisRange = "{0, 1757}";
+			sepNavFolds = "{\n    c =     (\n                {\n            l = \"number of sections\";\n            r = \"{2732, 22}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{5257, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{5308, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{5358, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 6362}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1531, 2704}}";
+			sepNavSelRange = "{2980, 0}";
+			sepNavVisRange = "{2318, 1407}";
 		};
 	};
 	78BE567912E8E3F5006A3074 /* PBXTextBookmark */ = {
@@ -642,7 +806,7 @@
 		fRef = 7830256B12E39F850027325D /* ContactListTableViewController.m */;
 		name = "ContactListTableViewController.m: 151";
 		rLen = 0;
-		rLoc = 4860;
+		rLoc = 4651;
 		rType = 0;
 		vrLen = 900;
 		vrLoc = 3878;
@@ -652,7 +816,7 @@
 		comments = "'FlickrAPIKey' undeclared (first use in this function)";
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		rLen = 1;
-		rLoc = 20;
+		rLoc = 21;
 		rType = 1;
 	};
 	78BE567B12E8E3F5006A3074 /* PBXTextBookmark */ = {
@@ -660,7 +824,7 @@
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		name = "TagListTableViewController.m: 20";
 		rLen = 0;
-		rLoc = 415;
+		rLoc = 456;
 		rType = 0;
 		vrLen = 1147;
 		vrLoc = 144;
@@ -670,7 +834,7 @@
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		name = "TagListTableViewController.m: 20";
 		rLen = 0;
-		rLoc = 415;
+		rLoc = 456;
 		rType = 0;
 		vrLen = 1334;
 		vrLoc = 144;
@@ -680,7 +844,7 @@
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		name = "TagListTableViewController.m: 20";
 		rLen = 0;
-		rLoc = 415;
+		rLoc = 456;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 693;
@@ -720,7 +884,7 @@
 		fRef = 78BE563412E8DABF006A3074 /* PhotoListTableViewController.h */;
 		name = "PhotoListTableViewController.h: 15";
 		rLen = 0;
-		rLoc = 214;
+		rLoc = 333;
 		rType = 0;
 		vrLen = 214;
 		vrLoc = 0;
@@ -740,7 +904,7 @@
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		name = "TagListTableViewController.m: 20";
 		rLen = 0;
-		rLoc = 441;
+		rLoc = 482;
 		rType = 0;
 		vrLen = 1821;
 		vrLoc = 0;
@@ -809,8 +973,8 @@
 		isa = PBXTextBookmark;
 		fRef = 7830256B12E39F850027325D /* ContactListTableViewController.m */;
 		name = "ContactListTableViewController.m: 84";
-		rLen = 66;
-		rLoc = 2467;
+		rLen = 0;
+		rLoc = 1774;
 		rType = 0;
 		vrLen = 2048;
 		vrLoc = 1540;
@@ -820,7 +984,7 @@
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		name = "TagListTableViewController.m: 112";
 		rLen = 0;
-		rLoc = 3368;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 1466;
 		vrLoc = 2532;
@@ -830,7 +994,7 @@
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		name = "TagListTableViewController.m: 116";
 		rLen = 0;
-		rLoc = 3510;
+		rLoc = 3659;
 		rType = 0;
 		vrLen = 1472;
 		vrLoc = 2532;
@@ -857,7 +1021,7 @@
 		fRef = 78BE563412E8DABF006A3074 /* PhotoListTableViewController.h */;
 		name = "PhotoListTableViewController.h: 15";
 		rLen = 0;
-		rLoc = 214;
+		rLoc = 333;
 		rType = 0;
 		vrLen = 214;
 		vrLoc = 0;
@@ -877,7 +1041,7 @@
 		fRef = 7830256B12E39F850027325D /* ContactListTableViewController.m */;
 		name = "ContactListTableViewController.m: 128";
 		rLen = 0;
-		rLoc = 4285;
+		rLoc = 1774;
 		rType = 0;
 		vrLen = 1269;
 		vrLoc = 0;
@@ -887,7 +1051,7 @@
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		name = "TagListTableViewController.m: 21";
 		rLen = 0;
-		rLoc = 428;
+		rLoc = 469;
 		rType = 0;
 		vrLen = 1757;
 		vrLoc = 0;
@@ -897,7 +1061,7 @@
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		name = "TagListTableViewController.m: 21";
 		rLen = 0;
-		rLoc = 428;
+		rLoc = 469;
 		rType = 0;
 		vrLen = 1757;
 		vrLoc = 0;
@@ -907,7 +1071,7 @@
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		name = "TagListTableViewController.m: 22";
 		rLen = 9;
-		rLoc = 671;
+		rLoc = 712;
 		rType = 0;
 		vrLen = 1771;
 		vrLoc = 85;
@@ -917,7 +1081,7 @@
 		fRef = 7830256B12E39F850027325D /* ContactListTableViewController.m */;
 		name = "ContactListTableViewController.m: 134";
 		rLen = 0;
-		rLoc = 4527;
+		rLoc = 1774;
 		rType = 0;
 		vrLen = 1309;
 		vrLoc = 3494;
@@ -927,7 +1091,7 @@
 		fRef = 7830256B12E39F850027325D /* ContactListTableViewController.m */;
 		name = "ContactListTableViewController.m: 133";
 		rLen = 0;
-		rLoc = 4527;
+		rLoc = 1774;
 		rType = 0;
 		vrLen = 1490;
 		vrLoc = 3361;
@@ -937,7 +1101,7 @@
 		fRef = 7830256B12E39F850027325D /* ContactListTableViewController.m */;
 		name = "ContactListTableViewController.m: 127";
 		rLen = 0;
-		rLoc = 4280;
+		rLoc = 1774;
 		rType = 0;
 		vrLen = 1367;
 		vrLoc = 3493;
@@ -947,7 +1111,7 @@
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		name = "TagListTableViewController.m: 22";
 		rLen = 0;
-		rLoc = 679;
+		rLoc = 720;
 		rType = 0;
 		vrLen = 1639;
 		vrLoc = 296;
@@ -957,7 +1121,7 @@
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		name = "TagListTableViewController.m: 58";
 		rLen = 0;
-		rLoc = 1923;
+		rLoc = 1964;
 		rType = 0;
 		vrLen = 1211;
 		vrLoc = 882;
@@ -967,7 +1131,7 @@
 		fRef = 7830256B12E39F850027325D /* ContactListTableViewController.m */;
 		name = "ContactListTableViewController.m: 135";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4419;
 		rType = 0;
 		vrLen = 1366;
 		vrLoc = 3493;
@@ -976,7 +1140,7 @@
 		isa = PBXTextBookmark;
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		rLen = 0;
-		rLoc = 20;
+		rLoc = 21;
 		rType = 1;
 	};
 	78BE56E212E8ED2A006A3074 /* PBXTextBookmark */ = {
@@ -984,7 +1148,7 @@
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		name = "TagListTableViewController.m: 21";
 		rLen = 0;
-		rLoc = 415;
+		rLoc = 456;
 		rType = 0;
 		vrLen = 1757;
 		vrLoc = 0;
@@ -994,7 +1158,7 @@
 		fRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */;
 		name = "TagListTableViewController.m: 21";
 		rLen = 0;
-		rLoc = 415;
+		rLoc = 456;
 		rType = 0;
 		vrLen = 1757;
 		vrLoc = 0;

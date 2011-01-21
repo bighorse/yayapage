@@ -61,14 +61,14 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-	NSArray *wordsInSection = [self.usernames objectForKey:[self.sections objectAtIndex:section]];
-	return wordsInSection.count;
+	NSArray *itemsInSection = [self.usernames objectForKey:[self.sections objectAtIndex:section]];
+	return itemsInSection.count;
 }
 
-- (NSString *)wordAtIndexPath:(NSIndexPath *)indexPath
+- (NSString *)itemAtIndexPath:(NSIndexPath *)indexPath
 {
-	NSArray *wordsInSection = [self.usernames objectForKey:[self.sections objectAtIndex:indexPath.section]];
-	return [wordsInSection objectAtIndex:indexPath.row];
+	NSArray *itemsInSection = [self.usernames objectForKey:[self.sections objectAtIndex:indexPath.section]];
+	return [itemsInSection objectAtIndex:indexPath.row];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -80,7 +80,7 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-	cell.textLabel.text = [self wordAtIndexPath:indexPath];
+	cell.textLabel.text = [self itemAtIndexPath:indexPath];
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
@@ -126,12 +126,9 @@
 	 [self.navigationController pushViewController:detailViewController animated:YES];
 	 [detailViewController release];
 	 */
-//	DefinitionViewController *dvc = [[DefinitionViewController alloc] init];
-//	dvc.word = [self wordAtIndexPath:indexPath];
-//	[self.navigationController pushViewController:dvc animated:YES];
-//	[dvc release];
+
 	TagListTableViewController *tltvc = [[TagListTableViewController alloc] init];
-	tltvc.userName = [self wordAtIndexPath:indexPath];
+	tltvc.userName = [self itemAtIndexPath:indexPath];
     [self.navigationController pushViewController:tltvc animated:YES];
 	[tltvc release];
 	

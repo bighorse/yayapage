@@ -9,6 +9,7 @@
 #import "TagListTableViewController.h"
 #import "FlickrAPIKey.h"
 #import "JSON.h"
+#import "PhotoListTableViewController.h"
 
 @implementation TagListTableViewController
 
@@ -102,6 +103,11 @@
 }
 
 
+- (NSString *)itemAtIndexPath:(NSIndexPath *)indexPath
+{
+	return [tagNames objectAtIndex:indexPath.row];
+}
+
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -171,6 +177,12 @@
     [self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];
     */
+	PhotoListTableViewController *pltvc = [[PhotoListTableViewController alloc] init];
+	pltvc.userName = self.userName;
+	pltvc.tagName = [self itemAtIndexPath:indexPath];
+    [self.navigationController pushViewController:pltvc animated:YES];
+	[pltvc release];
+	
 }
 
 
