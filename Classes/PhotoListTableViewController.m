@@ -24,6 +24,8 @@
 
     // Get the contents of the URL as a string, and parse the JSON into Foundation objects.
     NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
+	NSLog(@"%@", jsonString);
+
     NSDictionary *results = [jsonString JSONValue];
     
     // Now we need to dig through the resulting objects.

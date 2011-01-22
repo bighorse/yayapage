@@ -54,7 +54,7 @@
 // load the view nib and initialize the pageNumber ivar
 - (id)initWithPageNumber:(int)page
 {
-    if (self = [super initWithNibName:@"PhotoView" bundle:nil])
+    if (self = [super init])
     {
         pageNumber = page;
     }
@@ -72,7 +72,7 @@
 // set the label and background color when the view has finished loading
 - (void)viewDidLoad
 {
-    //pageNumberLabel.text = [NSString stringWithFormat:@"Page %d", pageNumber + 1];
+    self.title = @"ddddd";//self.numberTitle;
 }
 
 @end

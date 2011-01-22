@@ -70,6 +70,7 @@
 	
     // Get the contents of the URL as a string, and parse the JSON into Foundation objects.
     NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
+	NSLog(@"%@", jsonString);
     NSDictionary *results = [jsonString JSONValue];
     
     // Now we need to dig through the resulting objects.
@@ -88,7 +89,9 @@
 
 - (id)initWithUserName:(NSString *)user tagName:(NSString *)tag
 {
-	if (self =[self initWithNibName:@"PhotoPageView" bundle:nil]) {
+	if (self =[super init]) {
+		photoNames = [[NSMutableArray alloc] init];
+		photoURLs = [[NSMutableArray alloc] init];
 		userName = user;
 		tagName = tag;
 	}
@@ -97,6 +100,7 @@
 
 - (void)viewDidLoad
 {
+	[super viewDidLoad];
  
 	[self loadPhotosByTag];
     
@@ -141,10 +145,10 @@
     [super dealloc];
 }
 
-- (UIView *)view
-{
-    return self.scrollView;
-}
+//- (UIView *)view
+//{
+//    return self.scrollView;
+//}
 
 - (void)loadScrollViewWithPage:(int)page
 {
@@ -173,8 +177,9 @@
         
 		NSData *imageData = [NSData dataWithContentsOfURL:[photoURLs objectAtIndex:page]];
         controller.numberImage.image = [UIImage imageWithData:imageData];
-        controller.numberTitle = [photoNames objectAtIndex:page];
+        controller.numberTitle = @"test";//[photoNames objectAtIndex:page];
     }
+	self.title = [photoNames objectAtIndex:page];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)sender
