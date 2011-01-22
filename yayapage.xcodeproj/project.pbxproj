@@ -13,6 +13,10 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		782E410612EA345E000CB400 /* PhotoPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782E410312EA345E000CB400 /* PhotoPageController.m */; };
+		782E410712EA345E000CB400 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782E410512EA345E000CB400 /* PhotoViewController.m */; };
+		782E410C12EA35E8000CB400 /* PhotoPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782E410B12EA35E8000CB400 /* PhotoPageView.xib */; };
+		782E417E12EB7E1A000CB400 /* PhotoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782E417D12EB7E1A000CB400 /* PhotoView.xib */; };
 		7830256C12E39F850027325D /* ContactListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7830256B12E39F850027325D /* ContactListTableViewController.m */; };
 		78BE563712E8DABF006A3074 /* PhotoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */; };
 		78BE564D12E8DB00006A3074 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE564212E8DB00006A3074 /* NSObject+SBJSON.m */; };
@@ -34,6 +38,12 @@
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* yayapage_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yayapage_Prefix.pch; sourceTree = "<group>"; };
+		782E410212EA345E000CB400 /* PhotoPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPageController.h; sourceTree = "<group>"; };
+		782E410312EA345E000CB400 /* PhotoPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPageController.m; sourceTree = "<group>"; };
+		782E410412EA345E000CB400 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		782E410512EA345E000CB400 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		782E410B12EA35E8000CB400 /* PhotoPageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoPageView.xib; sourceTree = "<group>"; };
+		782E417D12EB7E1A000CB400 /* PhotoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoView.xib; sourceTree = "<group>"; };
 		7830256A12E39F850027325D /* ContactListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListTableViewController.h; sourceTree = "<group>"; };
 		7830256B12E39F850027325D /* ContactListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListTableViewController.m; sourceTree = "<group>"; };
 		78BE563412E8DABF006A3074 /* PhotoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListTableViewController.h; sourceTree = "<group>"; };
@@ -74,6 +84,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				782E410212EA345E000CB400 /* PhotoPageController.h */,
+				782E410312EA345E000CB400 /* PhotoPageController.m */,
+				782E410412EA345E000CB400 /* PhotoViewController.h */,
+				782E410512EA345E000CB400 /* PhotoViewController.m */,
 				78BE563412E8DABF006A3074 /* PhotoListTableViewController.h */,
 				78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */,
 				78BE563612E8DABF006A3074 /* FlickrAPIKey.h */,
@@ -122,6 +136,8 @@
 			children = (
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* yayapage-Info.plist */,
+				782E410B12EA35E8000CB400 /* PhotoPageView.xib */,
+				782E417D12EB7E1A000CB400 /* PhotoView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -206,6 +222,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				782E410C12EA35E8000CB400 /* PhotoPageView.xib in Resources */,
+				782E417E12EB7E1A000CB400 /* PhotoView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +245,8 @@
 				78BE565112E8DB00006A3074 /* SBJsonParser.m in Sources */,
 				78BE565212E8DB00006A3074 /* SBJsonWriter.m in Sources */,
 				78BE567012E8E0A4006A3074 /* TagListTableViewController.m in Sources */,
+				782E410612EA345E000CB400 /* PhotoPageController.m in Sources */,
+				782E410712EA345E000CB400 /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

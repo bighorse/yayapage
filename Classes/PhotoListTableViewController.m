@@ -6,6 +6,7 @@
 #import "PhotoListTableViewController.h"
 #import "JSON.h"
 #import "FlickrAPIKey.h"
+#import "PhotoPageController.h"
 
 // http://www.flickr.com/services/api/
 
@@ -53,6 +54,7 @@
 {
     [photoURLs release];
     [photoNames release];
+	[userName release];
 	[tagName release];
     
     [super dealloc];
@@ -92,6 +94,21 @@
     cell.imageView.image = [UIImage imageWithData:imageData];
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Navigation logic may go here. Create and push another view controller.
+    /*
+	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+     // ...
+     // Pass the selected object to the new view controller.
+	 [self.navigationController pushViewController:detailViewController animated:YES];
+	 [detailViewController release];
+	 */
+	PhotoPageController *ppc = [[PhotoPageController alloc] initWithUserName:self.userName tagName:self.tagName];
+    [self.navigationController pushViewController:ppc animated:YES];
+	[ppc release];
+	
 }
 
 @end
