@@ -17,29 +17,39 @@
 
 - (void)loadPhotosByTag
 {
-    // Construct a Flickr API request.
-	// Important! Enter your Flickr API key in FlickrAPIKey.h
-    NSString *urlString = [NSString stringWithFormat:@"http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%@&user_id=%@&tags=%@&per_page=10&format=json&nojsoncallback=1", FlickrAPIKey, userName, tagName];
-    NSURL *url = [NSURL URLWithString:urlString];
-
-    // Get the contents of the URL as a string, and parse the JSON into Foundation objects.
-    NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
-	NSLog(@"%@", jsonString);
-
-    NSDictionary *results = [jsonString JSONValue];
+//    // Construct a Flickr API request.
+//	// Important! Enter your Flickr API key in FlickrAPIKey.h
+//    NSString *urlString = [NSString stringWithFormat:@"http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%@&user_id=%@&tags=%@&per_page=10&format=json&nojsoncallback=1", FlickrAPIKey, userName, tagName];
+//    NSURL *url = [NSURL URLWithString:urlString];
+//
+//    // Get the contents of the URL as a string, and parse the JSON into Foundation objects.
+//    NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
+//
+//    NSDictionary *results = [jsonString JSONValue];
+//    
+//    // Now we need to dig through the resulting objects.
+//    // Read the documentation and make liberal use of the debugger or logs.
+//    NSArray *photos = [[results objectForKey:@"photos"] objectForKey:@"photo"];
+//    for (NSDictionary *photo in photos) {
+//        // Get the title for each photo
+//        NSString *title = [photo objectForKey:@"title"];
+//        [photoNames addObject:(title.length > 0 ? title : @"Untitled")];
+//        
+//        // Construct the URL for each photo.
+//        NSString *photoURLString = [NSString stringWithFormat:@"http://farm%@.static.flickr.com/%@/%@_%@_s.jpg", [photo objectForKey:@"farm"], [photo objectForKey:@"server"], [photo objectForKey:@"id"], [photo objectForKey:@"secret"]];
+//		NSLog(@"%@", photoURLString);
+//		[photoURLs addObject:[NSURL URLWithString:photoURLString]];
+//    }
     
-    // Now we need to dig through the resulting objects.
-    // Read the documentation and make liberal use of the debugger or logs.
-    NSArray *photos = [[results objectForKey:@"photos"] objectForKey:@"photo"];
-    for (NSDictionary *photo in photos) {
-        // Get the title for each photo
-        NSString *title = [photo objectForKey:@"title"];
-        [photoNames addObject:(title.length > 0 ? title : @"Untitled")];
-        
-        // Construct the URL for each photo.
-        NSString *photoURLString = [NSString stringWithFormat:@"http://farm%@.static.flickr.com/%@/%@_%@_s.jpg", [photo objectForKey:@"farm"], [photo objectForKey:@"server"], [photo objectForKey:@"id"], [photo objectForKey:@"secret"]];
-        [photoURLs addObject:[NSURL URLWithString:photoURLString]];
-    }    
+	for (int i = 0; i < 10; i++) {
+		[photoNames addObject:[NSString stringWithFormat:@"photo%d", i]];
+		if (i % 2 == 0) {
+			[photoURLs addObject:[NSURL URLWithString:@"http://farm1.static.flickr.com/105/281854329_e4111b1922_s.jpg"]];
+		} else {
+			[photoURLs addObject:[NSURL URLWithString:@"http://farm2.static.flickr.com/1334/1376842596_d829582e76_s.jpg"]];
+		}
+
+	}
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -107,7 +117,7 @@
 	 [self.navigationController pushViewController:detailViewController animated:YES];
 	 [detailViewController release];
 	 */
-	PhotoPageController *ppc = [[PhotoPageController alloc] initWithUserName:self.userName tagName:self.tagName];
+	PhotoPageController *ppc = [[PhotoPageController alloc] initWithUserName:self.userName tagName:self.tagName pageNumber:indexPath.row];
     [self.navigationController pushViewController:ppc animated:YES];
 	[ppc release];
 	

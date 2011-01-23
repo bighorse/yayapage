@@ -52,11 +52,9 @@
 {
     int pageNumber;
     
-    NSString *numberTitle;
     UIImageView *numberImage;
 }
 
-@property (nonatomic, retain)  NSString *numberTitle;
 @property (nonatomic, retain)  UIImageView *numberImage;
 
 - (id)initWithPageNumber:(int)page;

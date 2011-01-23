@@ -63,37 +63,48 @@
 
 - (void)loadPhotosByTag
 {
-    // Construct a Flickr API request.
-	// Important! Enter your Flickr API key in FlickrAPIKey.h
-    NSString *urlString = [NSString stringWithFormat:@"http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%@&user_id=%@&tags=%@&per_page=10&format=json&nojsoncallback=1", FlickrAPIKey, userName, tagName];
-    NSURL *url = [NSURL URLWithString:urlString];
-	
-    // Get the contents of the URL as a string, and parse the JSON into Foundation objects.
-    NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
-	NSLog(@"%@", jsonString);
-    NSDictionary *results = [jsonString JSONValue];
-    
-    // Now we need to dig through the resulting objects.
-    // Read the documentation and make liberal use of the debugger or logs.
-    NSArray *photos = [[results objectForKey:@"photos"] objectForKey:@"photo"];
-    for (NSDictionary *photo in photos) {
-        // Get the title for each photo
-        NSString *title = [photo objectForKey:@"title"];
-        [photoNames addObject:(title.length > 0 ? title : @"Untitled")];
-        
-        // Construct the URL for each photo.
-        NSString *photoURLString = [NSString stringWithFormat:@"http://farm%@.static.flickr.com/%@/%@_%@_s.jpg", [photo objectForKey:@"farm"], [photo objectForKey:@"server"], [photo objectForKey:@"id"], [photo objectForKey:@"secret"]];
-        [photoURLs addObject:[NSURL URLWithString:photoURLString]];
-    }    
+//    // Construct a Flickr API request.
+//	// Important! Enter your Flickr API key in FlickrAPIKey.h
+//    NSString *urlString = [NSString stringWithFormat:@"http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%@&user_id=%@&tags=%@&format=json&nojsoncallback=1", FlickrAPIKey, userName, tagName];
+//    NSURL *url = [NSURL URLWithString:urlString];
+//	NSLog(@"urlString:%@", urlString);
+//	
+//    // Get the contents of the URL as a string, and parse the JSON into Foundation objects.
+//    NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
+//	NSLog(@"jsonString:%@", jsonString);
+//    NSDictionary *results = [jsonString JSONValue];
+//    
+//    // Now we need to dig through the resulting objects.
+//    // Read the documentation and make liberal use of the debugger or logs.
+//    NSArray *photos = [[results objectForKey:@"photos"] objectForKey:@"photo"];
+//    for (NSDictionary *photo in photos) {
+//        // Get the title for each photo
+//        NSString *title = [photo objectForKey:@"title"];
+//        [photoNames addObject:(title.length > 0 ? title : @"Untitled")];
+//        
+//        // Construct the URL for each photo.
+//        NSString *photoURLString = [NSString stringWithFormat:@"http://farm%@.static.flickr.com/%@/%@_%@_s.jpg", [photo objectForKey:@"farm"], [photo objectForKey:@"server"], [photo objectForKey:@"id"], [photo objectForKey:@"secret"]];
+//        [photoURLs addObject:[NSURL URLWithString:photoURLString]];
+//    }    
+	for (int i = 0; i < 10; i++) {
+		[photoNames addObject:[NSString stringWithFormat:@"photo%d", i]];
+		if (i % 2 == 0) {
+			[photoURLs addObject:[NSURL URLWithString:@"http://farm1.static.flickr.com/105/281854329_e4111b1922_z.jpg"]];
+		} else {
+			[photoURLs addObject:[NSURL URLWithString:@"http://farm2.static.flickr.com/1334/1376842596_d829582e76_z.jpg"]];
+		}
+		
+	}
 }
 
-- (id)initWithUserName:(NSString *)user tagName:(NSString *)tag
+- (id)initWithUserName:(NSString *)user tagName:(NSString *)tag pageNumber:(int)page
 {
 	if (self =[super init]) {
 		photoNames = [[NSMutableArray alloc] init];
 		photoURLs = [[NSMutableArray alloc] init];
 		userName = user;
 		tagName = tag;
+		pageNumber = page;
 	}
 	return self;
 }
@@ -123,14 +134,15 @@
     scrollView.delegate = self;
     
     pageControl.numberOfPages = [photoNames count];
-    pageControl.currentPage = 0;
+    pageControl.currentPage = pageNumber;
     
     // pages are created on demand
     // load the visible page
     // load the page on either side to avoid flashes when the user starts scrolling
     //
-    [self loadScrollViewWithPage:0];
-    [self loadScrollViewWithPage:1];
+    [self loadScrollViewWithPage:pageNumber - 1];
+    [self loadScrollViewWithPage:pageNumber];
+    [self loadScrollViewWithPage:pageNumber + 1];
 }
 
 - (void)dealloc
@@ -177,9 +189,10 @@
         
 		NSData *imageData = [NSData dataWithContentsOfURL:[photoURLs objectAtIndex:page]];
         controller.numberImage.image = [UIImage imageWithData:imageData];
-        controller.numberTitle = @"test";//[photoNames objectAtIndex:page];
     }
 	self.title = [photoNames objectAtIndex:page];
+	NSLog(@"title:%@", self.title);
+
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)sender

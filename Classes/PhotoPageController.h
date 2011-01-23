@@ -61,6 +61,7 @@
     NSMutableArray *photoURLs;
 	NSString *userName;
 	NSString *tagName;
+	int pageNumber;
 
 }
 
@@ -70,6 +71,6 @@
 @property (nonatomic, retain) NSMutableArray *viewControllers;
 
 - (IBAction)changePage:(id)sender;
-- (id)initWithUserName:(NSString *)user tagName:(NSString *)tag;
+- (id)initWithUserName:(NSString *)user tagName:(NSString *)tag pageNumber:(int)page;
 
 @end

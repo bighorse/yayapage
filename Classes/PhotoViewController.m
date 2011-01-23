@@ -49,7 +49,7 @@
 
 @implementation PhotoViewController
 
-@synthesize numberTitle, numberImage;
+@synthesize numberImage;
 
 // load the view nib and initialize the pageNumber ivar
 - (id)initWithPageNumber:(int)page
@@ -63,7 +63,6 @@
 
 - (void)dealloc
 {
-    [numberTitle release];
     [numberImage release];
     
     [super dealloc];
@@ -72,7 +71,7 @@
 // set the label and background color when the view has finished loading
 - (void)viewDidLoad
 {
-    self.title = @"ddddd";//self.numberTitle;
+    
 }
 
 @end
