@@ -150,9 +150,20 @@
     frame.origin.y = 0;
     [scrollView scrollRectToVisible:frame animated:YES];
 	
-	// update tilte
+	// update tilte and hide it
 	self.title = [photoNames objectAtIndex:pageNumber];
 	[[self.navigationController navigationBar] setHidden:YES];
+	
+	// add single tap gesture to show/hide navi bar
+	UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
+	[scrollView addGestureRecognizer:singleTap];
+	[singleTap release];
+}
+
+- (void)viewDidUnload {
+	self.viewControllers = nil;
+	self.scrollView = nil;
+	self.pageControl = nil;
 }
 
 - (void)dealloc
@@ -259,5 +270,11 @@
 //	// Set the boolean used when scrolls originate from the UIPageControl. See scrollViewDidScroll: above.
 //    pageControlUsed = YES;
 //}
+
+- (void)handleSingleTap:(UIGestureRecognizer *)gestureRecognizer {
+	UINavigationBar *navbar = [self.navigationController navigationBar];
+	[navbar setHidden:!navbar.hidden];
+
+}
 
 @end
