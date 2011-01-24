@@ -70,7 +70,7 @@
 
 @property (nonatomic, retain) NSMutableArray *viewControllers;
 
-- (IBAction)changePage:(id)sender;
+//- (IBAction)changePage:(id)sender;
 - (id)initWithUserName:(NSString *)user tagName:(NSString *)tag pageNumber:(int)page;
 
 @end
