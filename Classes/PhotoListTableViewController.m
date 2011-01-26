@@ -6,7 +6,7 @@
 #import "PhotoListTableViewController.h"
 #import "JSON.h"
 #import "FlickrAPIKey.h"
-#import "PhotoPageController.h"
+#import "PhotoViewController.h"
 
 // http://www.flickr.com/services/api/
 
@@ -44,9 +44,11 @@
 	for (int i = 0; i < 10; i++) {
 		[photoNames addObject:[NSString stringWithFormat:@"photo%d", i]];
 		if (i % 2 == 0) {
-			[photoURLs addObject:[NSURL URLWithString:@"http://farm1.static.flickr.com/105/281854329_e4111b1922_s.jpg"]];
+			[thumbURLs addObject:[NSURL URLWithString:@"http://farm1.static.flickr.com/105/281854329_e4111b1922_s.jpg"]];
+			[photoURLs addObject:[NSURL URLWithString:@"http://farm1.static.flickr.com/105/281854329_e4111b1922_z.jpg"]];
 		} else {
-			[photoURLs addObject:[NSURL URLWithString:@"http://farm2.static.flickr.com/1334/1376842596_d829582e76_s.jpg"]];
+			[thumbURLs addObject:[NSURL URLWithString:@"http://farm2.static.flickr.com/1334/1376842596_d829582e76_s.jpg"]];
+			[photoURLs addObject:[NSURL URLWithString:@"http://farm2.static.flickr.com/1334/1376842596_d829582e76_z.jpg"]];
 		}
 
 	}
@@ -56,6 +58,7 @@
 {
     self = [super initWithStyle:style];
     if (self) {
+        thumbURLs = [[NSMutableArray alloc] init];
         photoURLs = [[NSMutableArray alloc] init];
         photoNames = [[NSMutableArray alloc] init];
     }
@@ -64,6 +67,7 @@
 
 - (void)dealloc
 {
+    [thumbURLs release];
     [photoURLs release];
     [photoNames release];
 	[userName release];
@@ -102,7 +106,7 @@
 	
     cell.textLabel.text = [photoNames objectAtIndex:indexPath.row];    
 
-    NSData *imageData = [NSData dataWithContentsOfURL:[photoURLs objectAtIndex:indexPath.row]];
+    NSData *imageData = [NSData dataWithContentsOfURL:[thumbURLs objectAtIndex:indexPath.row]];
     cell.imageView.image = [UIImage imageWithData:imageData];
     
     return cell;
@@ -117,9 +121,12 @@
 	 [self.navigationController pushViewController:detailViewController animated:YES];
 	 [detailViewController release];
 	 */
-	PhotoPageController *ppc = [[PhotoPageController alloc] initWithUserName:self.userName tagName:self.tagName pageNumber:indexPath.row];
-    [self.navigationController pushViewController:ppc animated:YES];
-	[ppc release];
+	PhotoViewController *pvc = [[PhotoViewController alloc] init];
+	pvc.photoNames = photoNames;
+	pvc.photoURLs = photoURLs;
+	pvc.pageNumber = indexPath.row;
+    [self.navigationController pushViewController:pvc animated:YES];
+	[pvc release];
 	
 }
 

@@ -89,8 +89,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 317767407;
-			PBXWorkspaceStateSaveDate = 317767407;
+			PBXPerProjectTemplateStateSaveDate = 317767725;
+			PBXWorkspaceStateSaveDate = 317767725;
 		};
 		perUserProjectItems = {
 			782E40ED12EA31F5000CB400 = 782E40ED12EA31F5000CB400 /* PBXTextBookmark */;
@@ -106,7 +106,29 @@
 			782E42E912EB9E4D000CB400 = 782E42E912EB9E4D000CB400 /* PBXTextBookmark */;
 			782E430212EB9ED7000CB400 = 782E430212EB9ED7000CB400 /* PBXTextBookmark */;
 			7830258912E3A2A50027325D = 7830258912E3A2A50027325D /* PBXTextBookmark */;
-			7870B71412F0BEF20004B078 /* PBXTextBookmark */ = 7870B71412F0BEF20004B078 /* PBXTextBookmark */;
+			7870B71412F0BEF20004B078 = 7870B71412F0BEF20004B078 /* PBXTextBookmark */;
+			7870B74B12F0CE900004B078 /* XCBuildMessageTextBookmark */ = 7870B74B12F0CE900004B078 /* XCBuildMessageTextBookmark */;
+			7870B74C12F0CE900004B078 /* PBXTextBookmark */ = 7870B74C12F0CE900004B078 /* PBXTextBookmark */;
+			7870B74F12F0CEAC0004B078 /* PBXTextBookmark */ = 7870B74F12F0CEAC0004B078 /* PBXTextBookmark */;
+			7870B75012F0CEAC0004B078 /* XCBuildMessageTextBookmark */ = 7870B75012F0CEAC0004B078 /* XCBuildMessageTextBookmark */;
+			7870B75112F0CEAC0004B078 /* PBXTextBookmark */ = 7870B75112F0CEAC0004B078 /* PBXTextBookmark */;
+			7870B75412F0CEBF0004B078 /* PBXTextBookmark */ = 7870B75412F0CEBF0004B078 /* PBXTextBookmark */;
+			7870B75512F0CEBF0004B078 /* XCBuildMessageTextBookmark */ = 7870B75512F0CEBF0004B078 /* XCBuildMessageTextBookmark */;
+			7870B75612F0CEBF0004B078 /* PBXTextBookmark */ = 7870B75612F0CEBF0004B078 /* PBXTextBookmark */;
+			7870B75B12F0CEC80004B078 /* PBXTextBookmark */ = 7870B75B12F0CEC80004B078 /* PBXTextBookmark */;
+			7870B75C12F0CEC80004B078 /* PBXTextBookmark */ = 7870B75C12F0CEC80004B078 /* PBXTextBookmark */;
+			7870B75D12F0CEC80004B078 /* PBXTextBookmark */ = 7870B75D12F0CEC80004B078 /* PBXTextBookmark */;
+			7870B75E12F0CEC80004B078 /* PBXTextBookmark */ = 7870B75E12F0CEC80004B078 /* PBXTextBookmark */;
+			7870B75F12F0CEC80004B078 /* PBXTextBookmark */ = 7870B75F12F0CEC80004B078 /* PBXTextBookmark */;
+			7870B76012F0CEC80004B078 /* PBXTextBookmark */ = 7870B76012F0CEC80004B078 /* PBXTextBookmark */;
+			7870B76212F0CEC80004B078 /* PBXTextBookmark */ = 7870B76212F0CEC80004B078 /* PBXTextBookmark */;
+			7870B76312F0CEC80004B078 /* PBXTextBookmark */ = 7870B76312F0CEC80004B078 /* PBXTextBookmark */;
+			7870B76412F0CEC80004B078 /* PBXTextBookmark */ = 7870B76412F0CEC80004B078 /* PBXTextBookmark */;
+			7870B76512F0CEC80004B078 /* PBXTextBookmark */ = 7870B76512F0CEC80004B078 /* PBXTextBookmark */;
+			7870B76A12F0D00E0004B078 /* PBXTextBookmark */ = 7870B76A12F0D00E0004B078 /* PBXTextBookmark */;
+			7870B76B12F0D00E0004B078 /* PBXTextBookmark */ = 7870B76B12F0D00E0004B078 /* PBXTextBookmark */;
+			7870B76D12F0D00E0004B078 /* PBXTextBookmark */ = 7870B76D12F0D00E0004B078 /* PBXTextBookmark */;
+			7870B76E12F0D00E0004B078 /* PBXTextBookmark */ = 7870B76E12F0D00E0004B078 /* PBXTextBookmark */;
 			78BE569312E8E7B5006A3074 = 78BE569312E8E7B5006A3074 /* PBXTextBookmark */;
 			78BE569512E8E7B5006A3074 = 78BE569512E8E7B5006A3074 /* PBXTextBookmark */;
 			78BE569612E8E7B5006A3074 = 78BE569612E8E7B5006A3074 /* PBXTextBookmark */;
@@ -208,32 +230,56 @@
 		vrLoc = 0;
 	};
 	782E410212EA345E000CB400 /* PhotoPageController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = PhotoPageController.h;
+		path = /Users/maguangjun/Documents/iosapps/yayapage/Classes/PhotoPageController.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1000, 988}}";
-			sepNavSelRange = "{2306, 0}";
-			sepNavVisRange = "{1335, 2005}";
+			sepNavSelRange = "{2973, 0}";
+			sepNavVisRange = "{1195, 2140}";
 		};
 	};
 	782E410312EA345E000CB400 /* PhotoPageController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = PhotoPageController.m;
+		path = /Users/maguangjun/Documents/iosapps/yayapage/Classes/PhotoPageController.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1000, 3952}}";
-			sepNavSelRange = "{10745, 0}";
-			sepNavVisRange = "{8676, 2076}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 3627}}";
+			sepNavSelRange = "{8207, 0}";
+			sepNavVisRange = "{7436, 1205}";
 			sepNavWindowFrame = "{{38, 474}, {750, 558}}";
 		};
 	};
 	782E410412EA345E000CB400 /* PhotoViewController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = PhotoViewController.h;
+		path = /Users/maguangjun/Documents/iosapps/yayapage/Classes/PhotoViewController.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1000, 819}}";
-			sepNavSelRange = "{1597, 0}";
-			sepNavVisRange = "{411, 2365}";
+			sepNavSelRange = "{1479, 0}";
+			sepNavVisRange = "{268, 2508}";
 		};
 	};
 	782E410512EA345E000CB400 /* PhotoViewController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = PhotoViewController.m;
+		path = /Users/maguangjun/Documents/iosapps/yayapage/Classes/PhotoViewController.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1000, 1014}}";
 			sepNavSelRange = "{2990, 0}";
-			sepNavVisRange = "{1390, 1609}";
+			sepNavVisRange = "{1248, 1751}";
 		};
 	};
 	782E416812EB7B78000CB400 /* PlistBookmark */ = {
@@ -262,7 +308,7 @@
 		fRef = 78BE563412E8DABF006A3074 /* PhotoListTableViewController.h */;
 		name = "PhotoListTableViewController.h: 20";
 		rLen = 0;
-		rLoc = 333;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 333;
 		vrLoc = 0;
@@ -292,7 +338,7 @@
 		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
 		name = "PhotoListTableViewController.m: 104";
 		rLen = 0;
-		rLoc = 4013;
+		rLoc = 4317;
 		rType = 0;
 		vrLen = 1897;
 		vrLoc = 2148;
@@ -324,7 +370,7 @@
 		rLen = 0;
 		rLoc = 1912;
 		rType = 0;
-		vrLen = 2342;
+		vrLen = 2261;
 		vrLoc = 515;
 	};
 	782E42E912EB9E4D000CB400 /* PBXTextBookmark */ = {
@@ -332,9 +378,9 @@
 		fRef = 782E410512EA345E000CB400 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 60";
 		rLen = 0;
-		rLoc = 2796;
+		rLoc = 2844;
 		rType = 0;
-		vrLen = 1760;
+		vrLen = 1684;
 		vrLoc = 1315;
 	};
 	782E430212EB9ED7000CB400 /* PBXTextBookmark */ = {
@@ -395,7 +441,7 @@
 	};
 	7830256A12E39F850027325D /* ContactListTableViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1000, 587}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 704}}";
 			sepNavSelRange = "{286, 0}";
 			sepNavVisRange = "{0, 294}";
 		};
@@ -428,19 +474,276 @@
 		vrLen = 2076;
 		vrLoc = 8676;
 	};
+	7870B73D12F0C1390004B078 /* ImageScrollView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 845}}";
+			sepNavSelRange = "{2931, 0}";
+			sepNavVisRange = "{524, 2497}";
+		};
+	};
+	7870B73E12F0C1390004B078 /* ImageScrollView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 3146}}";
+			sepNavSelRange = "{8158, 0}";
+			sepNavVisRange = "{7057, 2052}";
+		};
+	};
+	7870B73F12F0C1390004B078 /* PhotoViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 1157}}";
+			sepNavSelRange = "{3338, 0}";
+			sepNavVisRange = "{2091, 1621}";
+		};
+	};
+	7870B74012F0C1390004B078 /* PhotoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 4030}}";
+			sepNavSelRange = "{3410, 0}";
+			sepNavVisRange = "{2165, 1637}";
+		};
+	};
+	7870B74B12F0CE900004B078 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Accessing unknown 'photoNames' getter method";
+		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 124;
+		rType = 1;
+	};
+	7870B74C12F0CE900004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
+		name = "PhotoListTableViewController.m: 116";
+		rLen = 0;
+		rLoc = 4215;
+		rType = 0;
+		vrLen = 1244;
+		vrLoc = 3562;
+	};
+	7870B74F12F0CEAC0004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
+		name = "PhotoListTableViewController.m: 116";
+		rLen = 0;
+		rLoc = 4215;
+		rType = 0;
+		vrLen = 1244;
+		vrLoc = 3562;
+	};
+	7870B75012F0CEAC0004B078 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Request for member 'numberImage' in something not a structure or union";
+		fRef = 782E410312EA345E000CB400 /* PhotoPageController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 211;
+		rType = 1;
+	};
+	7870B75112F0CEAC0004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 782E410312EA345E000CB400 /* PhotoPageController.m */;
+		name = "PhotoPageController.m: 212";
+		rLen = 0;
+		rLoc = 8207;
+		rType = 0;
+		vrLen = 1336;
+		vrLoc = 7436;
+	};
+	7870B75412F0CEBF0004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
+		name = "PhotoListTableViewController.m: 116";
+		rLen = 0;
+		rLoc = 4215;
+		rType = 0;
+		vrLen = 1249;
+		vrLoc = 3557;
+	};
+	7870B75512F0CEBF0004B078 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'PhotoViewController' may not respond to '-tilePages'";
+		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 75;
+		rType = 1;
+	};
+	7870B75612F0CEBF0004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
+		name = "PhotoViewController.m: 74";
+		rLen = 0;
+		rLoc = 3555;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 3246;
+	};
+	7870B75B12F0CEC80004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE566E12E8E0A4006A3074 /* TagListTableViewController.h */;
+		name = "TagListTableViewController.h: 17";
+		rLen = 38;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 334;
+		vrLoc = 0;
+	};
+	7870B75C12F0CEC80004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7830256A12E39F850027325D /* ContactListTableViewController.h */;
+		name = "ContactListTableViewController.h: 14";
+		rLen = 0;
+		rLoc = 286;
+		rType = 0;
+		vrLen = 294;
+		vrLoc = 0;
+	};
+	7870B75D12F0CEC80004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE563412E8DABF006A3074 /* PhotoListTableViewController.h */;
+		name = "PhotoListTableViewController.h: 13";
+		rLen = 0;
+		rLoc = 257;
+		rType = 0;
+		vrLen = 364;
+		vrLoc = 0;
+	};
+	7870B75E12F0CEC80004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73D12F0C1390004B078 /* ImageScrollView.h */;
+		name = "ImageScrollView.h: 61";
+		rLen = 0;
+		rLoc = 2931;
+		rType = 0;
+		vrLen = 2497;
+		vrLoc = 524;
+	};
+	7870B75F12F0CEC80004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
+		name = "PhotoViewController.m: 234";
+		rLen = 50;
+		rLoc = 8686;
+		rType = 0;
+		vrLen = 2306;
+		vrLoc = 7609;
+	};
+	7870B76012F0CEC80004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B76112F0CEC80004B078 /* float.h */;
+		name = "float.h: 116";
+		rLen = 36;
+		rLoc = 3605;
+		rType = 0;
+		vrLen = 1572;
+		vrLoc = 2728;
+	};
+	7870B76112F0CEC80004B078 /* float.h */ = {
+		isa = PBXFileReference;
+		name = float.h;
+		path = "/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h";
+		sourceTree = "<absolute>";
+	};
+	7870B76212F0CEC80004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		name = "ImageScrollView.m: 217";
+		rLen = 0;
+		rLoc = 8158;
+		rType = 0;
+		vrLen = 2052;
+		vrLoc = 7057;
+	};
+	7870B76312F0CEC80004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
+		name = "PhotoListTableViewController.m: 125";
+		rLen = 0;
+		rLoc = 4620;
+		rType = 0;
+		vrLen = 1915;
+		vrLoc = 2886;
+	};
+	7870B76412F0CEC80004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73F12F0C1390004B078 /* PhotoViewController.h */;
+		name = "PhotoViewController.h: 56";
+		rLen = 0;
+		rLoc = 2759;
+		rType = 0;
+		vrLen = 1770;
+		vrLoc = 1945;
+	};
+	7870B76512F0CEC80004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73F12F0C1390004B078 /* PhotoViewController.h */;
+		name = "PhotoViewController.h: 75";
+		rLen = 0;
+		rLoc = 3338;
+		rType = 0;
+		vrLen = 1621;
+		vrLoc = 2091;
+	};
+	7870B76A12F0D00E0004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73F12F0C1390004B078 /* PhotoViewController.h */;
+		name = "PhotoViewController.h: 75";
+		rLen = 0;
+		rLoc = 3338;
+		rType = 0;
+		vrLen = 1621;
+		vrLoc = 2091;
+	};
+	7870B76B12F0D00E0004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B76C12F0D00E0004B078 /* PhotoPageController.m */;
+		name = "PhotoPageController.m: 30";
+		rLen = 0;
+		rLoc = 1747;
+		rType = 0;
+		vrLen = 2666;
+		vrLoc = 0;
+	};
+	7870B76C12F0D00E0004B078 /* PhotoPageController.m */ = {
+		isa = PBXFileReference;
+		name = PhotoPageController.m;
+		path = "/Users/maguangjun/Documents/iosapps/yayapage のコピー/Classes/PhotoPageController.m";
+		sourceTree = "<absolute>";
+	};
+	7870B76D12F0D00E0004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
+		name = "PhotoViewController.m: 70";
+		rLen = 0;
+		rLoc = 3349;
+		rType = 0;
+		vrLen = 1717;
+		vrLoc = 2018;
+	};
+	7870B76E12F0D00E0004B078 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
+		name = "PhotoViewController.m: 71";
+		rLen = 0;
+		rLoc = 3410;
+		rType = 0;
+		vrLen = 1634;
+		vrLoc = 2165;
+	};
 	78BE563412E8DABF006A3074 /* PhotoListTableViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1000, 685}}";
-			sepNavSelRange = "{333, 0}";
-			sepNavVisRange = "{0, 333}";
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 704}}";
+			sepNavSelRange = "{257, 0}";
+			sepNavVisRange = "{0, 364}";
 		};
 	};
 	78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{3928, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{3979, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{4029, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 4483}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1671, 1651}}";
-			sepNavSelRange = "{4270, 0}";
-			sepNavVisRange = "{2562, 1864}";
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{4232, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{4283, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{4333, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 4806}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1671, 1807}}";
+			sepNavSelRange = "{4215, 0}";
+			sepNavVisRange = "{3557, 1192}";
 		};
 	};
 	78BE563612E8DABF006A3074 /* FlickrAPIKey.h */ = {
@@ -459,7 +762,7 @@
 	};
 	78BE566E12E8E0A4006A3074 /* TagListTableViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1000, 605}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 704}}";
 			sepNavSelRange = "{289, 38}";
 			sepNavVisRange = "{0, 334}";
 		};
@@ -517,7 +820,7 @@
 		comments = "No '-initWithUserName:tagName:' method found";
 		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
 		rLen = 1;
-		rLoc = 119;
+		rLoc = 126;
 		rType = 1;
 	};
 	78FF528812ECCB3C00D63158 /* PBXTextBookmark */ = {
@@ -525,7 +828,7 @@
 		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
 		name = "PhotoListTableViewController.m: 110";
 		rLen = 0;
-		rLoc = 4385;
+		rLoc = 4617;
 		rType = 0;
 		vrLen = 1230;
 		vrLoc = 2840;
@@ -535,7 +838,7 @@
 		fRef = 78BE563412E8DABF006A3074 /* PhotoListTableViewController.h */;
 		name = "PhotoListTableViewController.h: 20";
 		rLen = 0;
-		rLoc = 333;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 333;
 		vrLoc = 0;
@@ -585,7 +888,7 @@
 		comments = "No '-initWithUserName:tagName:' method found";
 		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
 		rLen = 1;
-		rLoc = 119;
+		rLoc = 126;
 		rType = 1;
 	};
 	78FF529812ECCB4300D63158 /* PBXTextBookmark */ = {
@@ -593,7 +896,7 @@
 		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
 		name = "PhotoListTableViewController.m: 99";
 		rLen = 0;
-		rLoc = 3745;
+		rLoc = 4049;
 		rType = 0;
 		vrLen = 1924;
 		vrLoc = 2146;
@@ -603,7 +906,7 @@
 		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
 		name = "PhotoListTableViewController.m: 110";
 		rLen = 0;
-		rLoc = 4385;
+		rLoc = 4617;
 		rType = 0;
 		vrLen = 1295;
 		vrLoc = 2775;
@@ -613,7 +916,7 @@
 		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
 		name = "PhotoListTableViewController.m: 106";
 		rLen = 0;
-		rLoc = 4128;
+		rLoc = 4432;
 		rType = 0;
 		vrLen = 1924;
 		vrLoc = 2146;
@@ -760,7 +1063,7 @@
 		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
 		name = "PhotoListTableViewController.m: 49";
 		rLen = 0;
-		rLoc = 2178;
+		rLoc = 2291;
 		rType = 0;
 		vrLen = 2207;
 		vrLoc = 206;
@@ -799,7 +1102,7 @@
 		isa = PBXTextBookmark;
 		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
 		name = "PhotoListTableViewController.m: 44";
-		rLen = 366;
+		rLen = 594;
 		rLoc = 1822;
 		rType = 0;
 		vrLen = 2250;
@@ -880,7 +1183,7 @@
 		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
 		name = "PhotoListTableViewController.m: 49";
 		rLen = 0;
-		rLoc = 2176;
+		rLoc = 2289;
 		rType = 0;
 		vrLen = 2213;
 		vrLoc = 253;
@@ -890,7 +1193,7 @@
 		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
 		name = "PhotoListTableViewController.m: 49";
 		rLen = 0;
-		rLoc = 2176;
+		rLoc = 2289;
 		rType = 0;
 		vrLen = 2213;
 		vrLoc = 253;
@@ -920,7 +1223,7 @@
 		fRef = 78BE563512E8DABF006A3074 /* PhotoListTableViewController.m */;
 		name = "PhotoListTableViewController.m: 120";
 		rLen = 0;
-		rLoc = 4327;
+		rLoc = 4617;
 		rType = 0;
 		vrLen = 1921;
 		vrLoc = 2562;
@@ -1150,7 +1453,7 @@
 		fRef = 782E410512EA345E000CB400 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 60";
 		rLen = 0;
-		rLoc = 2796;
+		rLoc = 2844;
 		rType = 0;
 		vrLen = 1536;
 		vrLoc = 1463;
@@ -1260,7 +1563,7 @@
 		fRef = 782E410512EA345E000CB400 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 74";
 		rLen = 0;
-		rLoc = 2990;
+		rLoc = 3038;
 		rType = 0;
 		vrLen = 1609;
 		vrLoc = 1390;

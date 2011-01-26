@@ -8,6 +8,7 @@
 
 @interface PhotoListTableViewController : UITableViewController {
     NSMutableArray *photoNames;
+    NSMutableArray *thumbURLs;
     NSMutableArray *photoURLs;
 	NSString *userName;
 	NSString *tagName;

@@ -1,6 +1,6 @@
 /*
-     File: PhotoViewController.h
- Abstract: Configures and displays the paging scroll view and handles tiling and page configuration.
+     File: ImageScrollView.h
+ Abstract: Centers image within the scroll view and configures image sizing and display.
   Version: 1.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
@@ -47,42 +47,18 @@
 
 #import <UIKit/UIKit.h>
 
-@class ImageScrollView;
-
-@interface PhotoViewController : UIViewController <UIScrollViewDelegate> {
-    UIScrollView *pagingScrollView;
-    
-    NSMutableSet *recycledPages;
-    NSMutableSet *visiblePages;
-
-    // these values are stored off before we start rotation so we adjust our content offset appropriately during rotation
-    int           firstVisiblePageIndexBeforeRotation;
-    CGFloat       percentScrolledIntoFirstVisiblePage;
-	
-	NSMutableArray *photoNames;
-    NSMutableArray *photoURLs;
-	NSInteger pageNumber;
-	
+@interface ImageScrollView : UIScrollView <UIScrollViewDelegate> {
+    UIView        *imageView;
+    NSUInteger     index;
 }
+@property (assign) NSUInteger index;
 
-- (void)configurePage:(ImageScrollView *)page forIndex:(NSUInteger)index;
-- (BOOL)isDisplayingPageForIndex:(NSUInteger)index;
+- (void)displayImage:(UIImage *)image;
+//- (void)displayTiledImageNamed:(NSString *)imageName size:(CGSize)imageSize;
+- (void)setMaxMinZoomScalesForCurrentBounds;
 
-- (CGRect)frameForPagingScrollView;
-- (CGRect)frameForPageAtIndex:(NSUInteger)index;
-- (CGSize)contentSizeForPagingScrollView;
-
-- (void)tilePages;
-- (ImageScrollView *)dequeueRecycledPage;
-
-- (NSUInteger)imageCount;
-//- (NSString *)imageNameAtIndex:(NSUInteger)index;
-//- (CGSize)imageSizeAtIndex:(NSUInteger)index;
-- (UIImage *)imageAtIndex:(NSUInteger)index;
-
-@property (retain) NSMutableArray *photoNames;
-@property (retain) NSMutableArray *photoURLs;
-@property (assign) NSInteger pageNumber;
+- (CGPoint)pointToCenterAfterRotation;
+- (CGFloat)scaleToRestoreAfterRotation;
+- (void)restoreCenterPoint:(CGPoint)oldCenter scale:(CGFloat)oldScale;
 
 @end
-
