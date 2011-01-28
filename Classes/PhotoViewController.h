@@ -72,7 +72,7 @@
 - (CGRect)frameForPageAtIndex:(NSUInteger)index;
 - (CGSize)contentSizeForPagingScrollView;
 
-- (void)tilePages;
+- (void)tilePagesForIndex:(NSInteger)index;
 - (ImageScrollView *)dequeueRecycledPage;
 
 - (NSUInteger)imageCount;

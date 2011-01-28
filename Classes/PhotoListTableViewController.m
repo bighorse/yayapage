@@ -46,9 +46,11 @@
 		if (i % 2 == 0) {
 			[thumbURLs addObject:[NSURL URLWithString:@"http://farm1.static.flickr.com/105/281854329_e4111b1922_s.jpg"]];
 			[photoURLs addObject:[NSURL URLWithString:@"http://farm1.static.flickr.com/105/281854329_e4111b1922_z.jpg"]];
+			//[photoURLs addObject:[NSURL URLWithString:@"http://farm6.static.flickr.com/5015/5392015256_67847c4575_b.jpg"]];
 		} else {
 			[thumbURLs addObject:[NSURL URLWithString:@"http://farm2.static.flickr.com/1334/1376842596_d829582e76_s.jpg"]];
 			[photoURLs addObject:[NSURL URLWithString:@"http://farm2.static.flickr.com/1334/1376842596_d829582e76_z.jpg"]];
+			//[photoURLs addObject:[NSURL URLWithString:@"http://farm6.static.flickr.com/5260/5391369925_79008f5bdc_o.jpg"]];
 		}
 
 	}

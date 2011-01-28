@@ -61,7 +61,7 @@
     CGRect pagingScrollViewFrame = [self frameForPagingScrollView];
     pagingScrollView = [[UIScrollView alloc] initWithFrame:pagingScrollViewFrame];
     pagingScrollView.pagingEnabled = YES;
-    pagingScrollView.backgroundColor = [UIColor whiteColor];
+    pagingScrollView.backgroundColor = [UIColor blackColor];
     pagingScrollView.showsVerticalScrollIndicator = NO;
     pagingScrollView.showsHorizontalScrollIndicator = NO;
     pagingScrollView.contentSize = [self contentSizeForPagingScrollView];
@@ -69,11 +69,22 @@
     self.view = pagingScrollView;
 	UINavigationBar *navbar = [self.navigationController navigationBar];
 	[navbar setHidden:YES];
+	
+	// add single tap gesture to show/hide navi bar
+	UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
+	[pagingScrollView addGestureRecognizer:singleTap];
+	[singleTap release];
     
     // Step 2: prepare to tile content
     recycledPages = [[NSMutableSet alloc] init];
     visiblePages  = [[NSMutableSet alloc] init];
-    [self tilePages];
+    [self tilePagesForIndex:pageNumber];
+}
+
+- (void)handleSingleTap:(UIGestureRecognizer *)gestureRecognizer {
+	UINavigationBar *navbar = [self.navigationController navigationBar];
+	[navbar setHidden:!navbar.hidden];
+	
 }
 
 - (void)viewDidUnload
@@ -100,14 +111,26 @@
 #pragma mark -
 #pragma mark Tiling and page configuration
 
-- (void)tilePages 
+- (void)tilePagesForIndex:(NSInteger)index
 {
-    // Calculate which pages are visible
+	if (index >= 0) {
+		// update the scroll view to the appropriate page
+		CGRect bounds = pagingScrollView.bounds;
+		bounds.origin.x = bounds.size.width * index;
+		bounds.origin.y = 0;
+		[pagingScrollView scrollRectToVisible:bounds animated:NO];
+	}
+    
+	// Calculate which pages are visible
     CGRect visibleBounds = pagingScrollView.bounds;
     int firstNeededPageIndex = floorf(CGRectGetMinX(visibleBounds) / CGRectGetWidth(visibleBounds));
     int lastNeededPageIndex  = floorf((CGRectGetMaxX(visibleBounds)-1) / CGRectGetWidth(visibleBounds));
+
     firstNeededPageIndex = MAX(firstNeededPageIndex, 0);
     lastNeededPageIndex  = MIN(lastNeededPageIndex, [self imageCount] - 1);
+	
+	// show file name in navibar
+	self.title = [photoNames objectAtIndex:firstNeededPageIndex];
     
     // Recycle no-longer-visible pages 
     for (ImageScrollView *page in visiblePages) {
@@ -174,7 +197,7 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    [self tilePages];
+    [self tilePagesForIndex:-1];
 }
 
 #pragma mark -
@@ -224,12 +247,12 @@
 
 #pragma mark -
 #pragma mark  Frame calculations
-#define PADDING  10
+#define PADDING 5
 
 - (CGRect)frameForPagingScrollView {
-    CGRect frame = [[UIScreen mainScreen] bounds];
+    CGRect frame = [[UIScreen mainScreen] applicationFrame]; //[[UIScreen mainScreen] bounds];
     frame.origin.x -= PADDING;
-    frame.size.width += (2 * PADDING);
+    //frame.size.width += (2 * PADDING);
     return frame;
 }
 
