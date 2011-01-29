@@ -66,6 +66,7 @@
 - (void)dealloc
 {
     [imageView release];
+	[spinner release];
     [super dealloc];
 }
 
@@ -114,7 +115,7 @@
 #pragma mark -
 #pragma mark Configure scrollView to display new image (tiled or not)
 
-- (void)displayImage:(UIImage *)image
+- (void)displayImage:(NSURL *)imageURL
 {
     // clear the previous imageView
     [imageView removeFromSuperview];
@@ -124,13 +125,43 @@
     // reset our zoomScale to 1.0 before doing any further calculations
     self.zoomScale = 1.0;
     
-    // make a new UIImageView for the new image
-    imageView = [[UIImageView alloc] initWithImage:image];
-    [self addSubview:imageView];
-    
-    self.contentSize = [image size];
-    [self setMaxMinZoomScalesForCurrentBounds];
-    self.zoomScale = self.minimumZoomScale;
+	// create a spinner
+	spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+	spinner.hidesWhenStopped = YES;
+	CGSize boundsSize = self.bounds.size;
+	CGRect spinnerFrame = spinner.frame;
+	spinnerFrame.origin.x = (boundsSize.width - spinnerFrame.size.width) / 2;
+	spinnerFrame.origin.y = (boundsSize.height - spinnerFrame.size.height) / 2;
+	spinner.frame = spinnerFrame;
+	[self addSubview:spinner];
+	
+	// download image by GCD technology
+	[spinner startAnimating];
+	[self processImageDataWithBlock:^(NSData *imageData) {
+		if (self.window) {
+			UIImage *image = [UIImage imageWithData:imageData];
+			imageView = [[UIImageView alloc] initWithImage:image];
+			[self addSubview:imageView];			
+			self.contentSize = [image size];
+			[self setMaxMinZoomScalesForCurrentBounds];
+			self.zoomScale = self.minimumZoomScale;
+			[spinner stopAnimating];
+		}
+	} imageURL:imageURL];
+
+}
+
+- (void)processImageDataWithBlock:(void (^)(NSData *imageData))processImage imageURL:(NSURL *)url
+{
+	dispatch_queue_t callerQueue = dispatch_get_current_queue();
+	dispatch_queue_t downloadQueue = dispatch_queue_create("photo downloader", NULL);
+	dispatch_async(downloadQueue, ^{
+		NSData *imageData = [NSData dataWithContentsOfURL:url];
+		dispatch_async(callerQueue, ^{
+		    processImage(imageData);
+		});
+	});
+	dispatch_release(downloadQueue);
 }
 
 //- (void)displayTiledImageNamed:(NSString *)imageName size:(CGSize)imageSize

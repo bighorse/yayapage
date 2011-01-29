@@ -50,15 +50,17 @@
 @interface ImageScrollView : UIScrollView <UIScrollViewDelegate> {
     UIView        *imageView;
     NSUInteger     index;
+	UIActivityIndicatorView *spinner;
 }
 @property (assign) NSUInteger index;
 
-- (void)displayImage:(UIImage *)image;
+- (void)displayImage:(NSURL *)imageURL;
 //- (void)displayTiledImageNamed:(NSString *)imageName size:(CGSize)imageSize;
 - (void)setMaxMinZoomScalesForCurrentBounds;
 
 - (CGPoint)pointToCenterAfterRotation;
 - (CGFloat)scaleToRestoreAfterRotation;
 - (void)restoreCenterPoint:(CGPoint)oldCenter scale:(CGFloat)oldScale;
+- (void)processImageDataWithBlock:(void (^)(NSData *imageData))processImage imageURL:(NSURL *)imageURL;
 
 @end

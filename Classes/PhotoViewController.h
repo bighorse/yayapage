@@ -78,7 +78,7 @@
 - (NSUInteger)imageCount;
 //- (NSString *)imageNameAtIndex:(NSUInteger)index;
 //- (CGSize)imageSizeAtIndex:(NSUInteger)index;
-- (UIImage *)imageAtIndex:(NSUInteger)index;
+//- (UIImage *)imageAtIndex:(NSUInteger)index;
 
 @property (retain) NSMutableArray *photoNames;
 @property (retain) NSMutableArray *photoURLs;

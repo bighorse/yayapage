@@ -188,7 +188,7 @@
     
     // To use full images instead of tiled images, replace the "displayTiledImageNamed:" call
     // above by the following line:
-    [page displayImage:[self imageAtIndex:index]];
+    [page displayImage:[photoURLs objectAtIndex:index]];
 }
 
 
@@ -297,15 +297,15 @@
 //    }
 //    return __imageData;
 //}
-
-- (UIImage *)imageAtIndex:(NSUInteger)index {
-    // use "imageWithContentsOfFile:" instead of "imageNamed:" here to avoid caching our images
-//    NSString *imageName = [self imageNameAtIndex:index];
-//    NSString *path = [[NSBundle mainBundle] pathForResource:imageName ofType:@"jpg"];
-//    return [UIImage imageWithContentsOfFile:path];    
-	NSData *imageData = [NSData dataWithContentsOfURL:[photoURLs objectAtIndex:index]];
-	return [UIImage imageWithData:imageData];
-}
+//
+//- (UIImage *)imageAtIndex:(NSUInteger)index {
+//    // use "imageWithContentsOfFile:" instead of "imageNamed:" here to avoid caching our images
+////    NSString *imageName = [self imageNameAtIndex:index];
+////    NSString *path = [[NSBundle mainBundle] pathForResource:imageName ofType:@"jpg"];
+////    return [UIImage imageWithContentsOfFile:path];    
+//	NSData *imageData = [NSData dataWithContentsOfURL:[photoURLs objectAtIndex:index]];
+//	return [UIImage imageWithData:imageData];
+//}
 
 //- (NSString *)imageNameAtIndex:(NSUInteger)index {
 //    NSString *name = nil;
