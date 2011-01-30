@@ -75,6 +75,11 @@
 	[pagingScrollView addGestureRecognizer:singleTap];
 	[singleTap release];
     
+	UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDoubleTap:)];
+	[doubleTap setNumberOfTapsRequired:2];
+	[pagingScrollView addGestureRecognizer:doubleTap];
+	[doubleTap release];
+	
     // Step 2: prepare to tile content
     recycledPages = [[NSMutableSet alloc] init];
     visiblePages  = [[NSMutableSet alloc] init];
@@ -85,6 +90,11 @@
 	UINavigationBar *navbar = [self.navigationController navigationBar];
 	[navbar setHidden:!navbar.hidden];
 	
+}
+
+- (void)handleDoubleTap:(UIGestureRecognizer *)gestureRecognizer {
+	UINavigationBar *navbar = [self.navigationController navigationBar];
+	[navbar setHidden:!navbar.hidden];
 }
 
 - (void)viewDidUnload
@@ -123,14 +133,15 @@
     
 	// Calculate which pages are visible
     CGRect visibleBounds = pagingScrollView.bounds;
-    int firstNeededPageIndex = floorf(CGRectGetMinX(visibleBounds) / CGRectGetWidth(visibleBounds));
-    int lastNeededPageIndex  = floorf((CGRectGetMaxX(visibleBounds)-1) / CGRectGetWidth(visibleBounds));
+	int pageIndex = floorf(CGRectGetMinX(visibleBounds) / CGRectGetWidth(visibleBounds));
+    int firstNeededPageIndex = pageIndex - 1;
+    int lastNeededPageIndex  = floorf((CGRectGetMaxX(visibleBounds)-1) / CGRectGetWidth(visibleBounds)) + 1;
 
     firstNeededPageIndex = MAX(firstNeededPageIndex, 0);
     lastNeededPageIndex  = MIN(lastNeededPageIndex, [self imageCount] - 1);
 	
 	// show file name in navibar
-	self.title = [photoNames objectAtIndex:firstNeededPageIndex];
+	self.title = [photoNames objectAtIndex:MAX(pageIndex, 0)];
     
     // Recycle no-longer-visible pages 
     for (ImageScrollView *page in visiblePages) {

@@ -48,6 +48,13 @@
 #import "ImageScrollView.h"
 //#import "TilingView.h"
 
+#define ZOOM_STEP 1.5
+
+@interface ImageScrollView (UtilityMethods)
+
+- (CGRect)zoomRectForScale:(float)scale withCenter:(CGPoint)center;
+@end
+
 @implementation ImageScrollView
 @synthesize index;
 
@@ -58,9 +65,54 @@
         self.showsHorizontalScrollIndicator = NO;
         self.bouncesZoom = YES;
         self.decelerationRate = UIScrollViewDecelerationRateFast;
-        self.delegate = self;        
+        self.delegate = self;   
+		
+		// add gesture recognizers to the image view
+		UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDoubleTap:)];
+		UITapGestureRecognizer *twoFingerTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTwoFingerTap:)];
+		
+		[doubleTap setNumberOfTapsRequired:2];
+		[twoFingerTap setNumberOfTouchesRequired:2];
+		
+		[self addGestureRecognizer:doubleTap];
+		[self addGestureRecognizer:twoFingerTap];
+		
+		[doubleTap release];
+		[twoFingerTap release];
+		
     }
     return self;
+}
+
+- (void)handleDoubleTap:(UIGestureRecognizer *)gestureRecognizer {
+    // double tap zooms in
+    float newScale = [self zoomScale] * ZOOM_STEP;
+    CGRect zoomRect = [self zoomRectForScale:newScale withCenter:[gestureRecognizer locationInView:gestureRecognizer.view]];
+    [self zoomToRect:zoomRect animated:YES];
+}
+
+- (void)handleTwoFingerTap:(UIGestureRecognizer *)gestureRecognizer {
+    // two-finger tap zooms out
+    float newScale = [self zoomScale] / ZOOM_STEP;
+    CGRect zoomRect = [self zoomRectForScale:newScale withCenter:[gestureRecognizer locationInView:gestureRecognizer.view]];
+    [self zoomToRect:zoomRect animated:YES];
+}
+
+- (CGRect)zoomRectForScale:(float)scale withCenter:(CGPoint)center {
+    
+    CGRect zoomRect;
+    
+    // the zoom rect is in the content view's coordinates. 
+    //    At a zoom scale of 1.0, it would be the size of the imageScrollView's bounds.
+    //    As the zoom scale decreases, so more content is visible, the size of the rect grows.
+    zoomRect.size.height = [self frame].size.height / scale;
+    zoomRect.size.width  = [self frame].size.width  / scale;
+    
+    // choose an origin so as to get the right center.
+    zoomRect.origin.x    = center.x - (zoomRect.size.width  / 2.0);
+    zoomRect.origin.y    = center.y - (zoomRect.size.height / 2.0);
+    
+    return zoomRect;
 }
 
 - (void)dealloc
