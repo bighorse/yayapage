@@ -28,7 +28,6 @@
 			1D6058900D05DD3D006BFB54 /* yayapage */,
 		);
 		breakpoints = (
-			78F7766812F61846006ACE34 /* PhotoViewController.m:96 */,
 		);
 		codeSenseManager = 7830255A12E39DAE0027325D /* Code sense */;
 		executables = (
@@ -204,6 +203,45 @@
 			78F7766612F6182F006ACE34 /* PBXTextBookmark */ = 78F7766612F6182F006ACE34 /* PBXTextBookmark */;
 			78F7766A12F61848006ACE34 /* PBXTextBookmark */ = 78F7766A12F61848006ACE34 /* PBXTextBookmark */;
 			78F7766B12F61848006ACE34 /* PBXTextBookmark */ = 78F7766B12F61848006ACE34 /* PBXTextBookmark */;
+			78F7768B12F765B1006ACE34 /* PBXTextBookmark */ = 78F7768B12F765B1006ACE34 /* PBXTextBookmark */;
+			78F7768C12F765B1006ACE34 /* PBXTextBookmark */ = 78F7768C12F765B1006ACE34 /* PBXTextBookmark */;
+			78F7768D12F765B1006ACE34 /* PBXTextBookmark */ = 78F7768D12F765B1006ACE34 /* PBXTextBookmark */;
+			78F7768E12F765B1006ACE34 /* PBXTextBookmark */ = 78F7768E12F765B1006ACE34 /* PBXTextBookmark */;
+			78F7768F12F765B1006ACE34 /* PBXTextBookmark */ = 78F7768F12F765B1006ACE34 /* PBXTextBookmark */;
+			78F7769012F765B1006ACE34 /* PBXTextBookmark */ = 78F7769012F765B1006ACE34 /* PBXTextBookmark */;
+			78F7769612F765EA006ACE34 /* PBXTextBookmark */ = 78F7769612F765EA006ACE34 /* PBXTextBookmark */;
+			78F7769712F765EA006ACE34 /* PBXTextBookmark */ = 78F7769712F765EA006ACE34 /* PBXTextBookmark */;
+			78F7769812F765EA006ACE34 /* PBXTextBookmark */ = 78F7769812F765EA006ACE34 /* PBXTextBookmark */;
+			78F7769F12F7673C006ACE34 /* PBXTextBookmark */ = 78F7769F12F7673C006ACE34 /* PBXTextBookmark */;
+			78F776A012F7673C006ACE34 /* PBXTextBookmark */ = 78F776A012F7673C006ACE34 /* PBXTextBookmark */;
+			78F776A112F7673C006ACE34 /* PBXTextBookmark */ = 78F776A112F7673C006ACE34 /* PBXTextBookmark */;
+			78F776A412F7677A006ACE34 /* PBXTextBookmark */ = 78F776A412F7677A006ACE34 /* PBXTextBookmark */;
+			78F776AB12F767FF006ACE34 /* PBXTextBookmark */ = 78F776AB12F767FF006ACE34 /* PBXTextBookmark */;
+			78F776AC12F767FF006ACE34 /* PBXTextBookmark */ = 78F776AC12F767FF006ACE34 /* PBXTextBookmark */;
+			78F776AD12F767FF006ACE34 /* PBXTextBookmark */ = 78F776AD12F767FF006ACE34 /* PBXTextBookmark */;
+			78F776B312F7684B006ACE34 /* PBXTextBookmark */ = 78F776B312F7684B006ACE34 /* PBXTextBookmark */;
+			78F776B412F7684B006ACE34 /* PBXTextBookmark */ = 78F776B412F7684B006ACE34 /* PBXTextBookmark */;
+			78F776B512F7684B006ACE34 /* PBXTextBookmark */ = 78F776B512F7684B006ACE34 /* PBXTextBookmark */;
+			78F776BA12F76884006ACE34 /* PBXTextBookmark */ = 78F776BA12F76884006ACE34 /* PBXTextBookmark */;
+			78F776BB12F76884006ACE34 /* PBXTextBookmark */ = 78F776BB12F76884006ACE34 /* PBXTextBookmark */;
+			78F776C112F768B6006ACE34 /* PBXTextBookmark */ = 78F776C112F768B6006ACE34 /* PBXTextBookmark */;
+			78F776C212F768B6006ACE34 /* PBXTextBookmark */ = 78F776C212F768B6006ACE34 /* PBXTextBookmark */;
+			78F776C312F768B6006ACE34 /* PBXTextBookmark */ = 78F776C312F768B6006ACE34 /* PBXTextBookmark */;
+			78F776C512F768D0006ACE34 /* PBXTextBookmark */ = 78F776C512F768D0006ACE34 /* PBXTextBookmark */;
+			78F776C612F768D0006ACE34 /* PBXTextBookmark */ = 78F776C612F768D0006ACE34 /* PBXTextBookmark */;
+			78F776C712F768D0006ACE34 /* PBXTextBookmark */ = 78F776C712F768D0006ACE34 /* PBXTextBookmark */;
+			78F776C812F768E6006ACE34 /* PBXTextBookmark */ = 78F776C812F768E6006ACE34 /* PBXTextBookmark */;
+			78F776C912F768E6006ACE34 /* PBXTextBookmark */ = 78F776C912F768E6006ACE34 /* PBXTextBookmark */;
+			78F776CA12F768E6006ACE34 /* PBXTextBookmark */ = 78F776CA12F768E6006ACE34 /* PBXTextBookmark */;
+			78F776CD12F76977006ACE34 /* PBXTextBookmark */ = 78F776CD12F76977006ACE34 /* PBXTextBookmark */;
+			78F776CE12F76977006ACE34 /* PBXTextBookmark */ = 78F776CE12F76977006ACE34 /* PBXTextBookmark */;
+			78F776CF12F76977006ACE34 /* PBXTextBookmark */ = 78F776CF12F76977006ACE34 /* PBXTextBookmark */;
+			78F776D012F76977006ACE34 /* PBXTextBookmark */ = 78F776D012F76977006ACE34 /* PBXTextBookmark */;
+			78F776D412F76A9D006ACE34 /* PBXTextBookmark */ = 78F776D412F76A9D006ACE34 /* PBXTextBookmark */;
+			78F776D512F76A9D006ACE34 /* PBXTextBookmark */ = 78F776D512F76A9D006ACE34 /* PBXTextBookmark */;
+			78F776D612F76A9D006ACE34 /* PBXTextBookmark */ = 78F776D612F76A9D006ACE34 /* PBXTextBookmark */;
+			78F776D712F76A9D006ACE34 /* PBXTextBookmark */ = 78F776D712F76A9D006ACE34 /* PBXTextBookmark */;
+			78F776DB12F76AD5006ACE34 /* PBXTextBookmark */ = 78F776DB12F76AD5006ACE34 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 7830255912E39DAE0027325D /* Source Control */;
 		userBuildSettings = {
@@ -323,32 +361,32 @@
 	};
 	7870B73D12F0C1390004B078 /* ImageScrollView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1000, 871}}";
-			sepNavSelRange = "{2499, 0}";
-			sepNavVisRange = "{665, 2496}";
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 884}}";
+			sepNavSelRange = "{2707, 0}";
+			sepNavVisRange = "{597, 2637}";
 			sepNavWindowFrame = "{{38, 474}, {750, 558}}";
 		};
 	};
 	7870B73E12F0C1390004B078 /* ImageScrollView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1000, 3991}}";
-			sepNavSelRange = "{3387, 41}";
-			sepNavVisRange = "{2709, 2049}";
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 4290}}";
+			sepNavSelRange = "{5508, 0}";
+			sepNavVisRange = "{3817, 1978}";
 			sepNavWindowFrame = "{{38, 474}, {750, 558}}";
 		};
 	};
 	7870B73F12F0C1390004B078 /* PhotoViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1000, 1157}}";
-			sepNavSelRange = "{3553, 0}";
-			sepNavVisRange = "{1817, 1875}";
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 1144}}";
+			sepNavSelRange = "{2715, 0}";
+			sepNavVisRange = "{1888, 1776}";
 		};
 	};
 	7870B74012F0C1390004B078 /* PhotoViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1000, 4407}}";
-			sepNavSelRange = "{4442, 0}";
-			sepNavVisRange = "{2626, 1931}";
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 4563}}";
+			sepNavSelRange = "{4362, 0}";
+			sepNavVisRange = "{2470, 1828}";
 			sepNavWindowFrame = "{{15, 495}, {750, 558}}";
 		};
 	};
@@ -416,7 +454,7 @@
 		fRef = 7870B73D12F0C1390004B078 /* ImageScrollView.h */;
 		name = "ImageScrollView.h: 61";
 		rLen = 0;
-		rLoc = 3155;
+		rLoc = 3228;
 		rType = 0;
 		vrLen = 2499;
 		vrLoc = 522;
@@ -436,7 +474,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 65";
 		rLen = 0;
-		rLoc = 4977;
+		rLoc = 5637;
 		rType = 0;
 		vrLen = 1469;
 		vrLoc = 2075;
@@ -473,7 +511,7 @@
 		fRef = 7870B73F12F0C1390004B078 /* PhotoViewController.h */;
 		name = "PhotoViewController.h: 75";
 		rLen = 0;
-		rLoc = 3380;
+		rLoc = 3445;
 		rType = 0;
 		vrLen = 1786;
 		vrLoc = 1945;
@@ -483,7 +521,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 133";
 		rLen = 0;
-		rLoc = 5647;
+		rLoc = 5891;
 		rType = 0;
 		vrLen = 1741;
 		vrLoc = 4290;
@@ -493,7 +531,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 133";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5949;
 		rType = 0;
 		vrLen = 1694;
 		vrLoc = 4052;
@@ -567,7 +605,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 133";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5949;
 		rType = 0;
 		vrLen = 1640;
 		vrLoc = 4052;
@@ -578,7 +616,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 202;
+		rLoc = 217;
 		rType = 1;
 	};
 	78F7757112F4B9F5006ACE34 /* PBXTextBookmark */ = {
@@ -586,7 +624,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 128";
 		rLen = 0;
-		rLoc = 7708;
+		rLoc = 8411;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 4232;
@@ -606,7 +644,7 @@
 		fRef = 7870B73F12F0C1390004B078 /* PhotoViewController.h */;
 		name = "PhotoViewController.h: 62";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 3086;
 		rType = 0;
 		vrLen = 1873;
 		vrLoc = 1817;
@@ -626,7 +664,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 306";
 		rLen = 0;
-		rLoc = 12438;
+		rLoc = 12682;
 		rType = 0;
 		vrLen = 1793;
 		vrLoc = 4768;
@@ -646,7 +684,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 127";
 		rLen = 0;
-		rLoc = 7708;
+		rLoc = 8411;
 		rType = 0;
 		vrLen = 1646;
 		vrLoc = 4232;
@@ -656,7 +694,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 126";
 		rLen = 0;
-		rLoc = 7274;
+		rLoc = 7934;
 		rType = 0;
 		vrLen = 1627;
 		vrLoc = 4232;
@@ -666,7 +704,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 129";
 		rLen = 0;
-		rLoc = 7708;
+		rLoc = 8411;
 		rType = 0;
 		vrLen = 1019;
 		vrLoc = 3539;
@@ -677,7 +715,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 349;
+		rLoc = 353;
 		rType = 1;
 	};
 	78F7759C12F4BC28006ACE34 /* PBXTextBookmark */ = {
@@ -685,7 +723,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 339";
 		rLen = 0;
-		rLoc = 13392;
+		rLoc = 13636;
 		rType = 0;
 		vrLen = 872;
 		vrLoc = 12074;
@@ -695,7 +733,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 126";
 		rLen = 0;
-		rLoc = 7274;
+		rLoc = 7934;
 		rType = 0;
 		vrLen = 1627;
 		vrLoc = 4232;
@@ -705,7 +743,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 339";
 		rLen = 0;
-		rLoc = 13392;
+		rLoc = 13636;
 		rType = 0;
 		vrLen = 1933;
 		vrLoc = 11013;
@@ -715,7 +753,7 @@
 		fRef = 7870B73F12F0C1390004B078 /* PhotoViewController.h */;
 		name = "PhotoViewController.h: 62";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 3086;
 		rType = 0;
 		vrLen = 1873;
 		vrLoc = 1817;
@@ -725,7 +763,7 @@
 		fRef = 7870B73F12F0C1390004B078 /* PhotoViewController.h */;
 		name = "PhotoViewController.h: 81";
 		rLen = 0;
-		rLoc = 3553;
+		rLoc = 3618;
 		rType = 0;
 		vrLen = 1875;
 		vrLoc = 1817;
@@ -735,7 +773,7 @@
 		fRef = 7870B73F12F0C1390004B078 /* PhotoViewController.h */;
 		name = "PhotoViewController.h: 81";
 		rLen = 0;
-		rLoc = 3553;
+		rLoc = 3618;
 		rType = 0;
 		vrLen = 1875;
 		vrLoc = 1817;
@@ -745,7 +783,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 129";
 		rLen = 0;
-		rLoc = 7708;
+		rLoc = 8411;
 		rType = 0;
 		vrLen = 1696;
 		vrLoc = 4258;
@@ -755,7 +793,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 129";
 		rLen = 0;
-		rLoc = 7708;
+		rLoc = 8411;
 		rType = 0;
 		vrLen = 1696;
 		vrLoc = 4258;
@@ -765,7 +803,7 @@
 		fRef = 7870B73D12F0C1390004B078 /* ImageScrollView.h */;
 		name = "ImageScrollView.h: 65";
 		rLen = 0;
-		rLoc = 3155;
+		rLoc = 3228;
 		rType = 0;
 		vrLen = 2546;
 		vrLoc = 597;
@@ -785,7 +823,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 142";
 		rLen = 0;
-		rLoc = 7708;
+		rLoc = 8411;
 		rType = 0;
 		vrLen = 1813;
 		vrLoc = 4620;
@@ -795,7 +833,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 152";
 		rLen = 0;
-		rLoc = 7811;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1832;
 		vrLoc = 4620;
@@ -805,7 +843,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 152";
 		rLen = 0;
-		rLoc = 7811;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1717;
 		vrLoc = 4240;
@@ -815,7 +853,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 152";
 		rLen = 0;
-		rLoc = 7811;
+		rLoc = 8514;
 		rType = 0;
 		vrLen = 1717;
 		vrLoc = 4240;
@@ -835,7 +873,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 339";
 		rLen = 0;
-		rLoc = 13392;
+		rLoc = 13636;
 		rType = 0;
 		vrLen = 1439;
 		vrLoc = 5746;
@@ -845,7 +883,7 @@
 		fRef = 7870B73D12F0C1390004B078 /* ImageScrollView.h */;
 		name = "ImageScrollView.h: 64";
 		rLen = 0;
-		rLoc = 3155;
+		rLoc = 3228;
 		rType = 0;
 		vrLen = 2576;
 		vrLoc = 597;
@@ -855,7 +893,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 151";
 		rLen = 22;
-		rLoc = 7787;
+		rLoc = 8490;
 		rType = 0;
 		vrLen = 1890;
 		vrLoc = 4641;
@@ -865,7 +903,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 138";
 		rLen = 0;
-		rLoc = 7705;
+		rLoc = 8408;
 		rType = 0;
 		vrLen = 1869;
 		vrLoc = 4522;
@@ -875,7 +913,7 @@
 		fRef = 7870B73D12F0C1390004B078 /* ImageScrollView.h */;
 		name = "ImageScrollView.h: 53";
 		rLen = 0;
-		rLoc = 2662;
+		rLoc = 2735;
 		rType = 0;
 		vrLen = 2567;
 		vrLoc = 597;
@@ -885,7 +923,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 259";
 		rLen = 50;
-		rLoc = 10016;
+		rLoc = 10260;
 		rType = 0;
 		vrLen = 2350;
 		vrLoc = 8539;
@@ -895,7 +933,7 @@
 		fRef = 7870B73F12F0C1390004B078 /* PhotoViewController.h */;
 		name = "PhotoViewController.h: 81";
 		rLen = 0;
-		rLoc = 3553;
+		rLoc = 3618;
 		rType = 0;
 		vrLen = 1875;
 		vrLoc = 1817;
@@ -905,7 +943,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 131";
 		rLen = 0;
-		rLoc = 7044;
+		rLoc = 7704;
 		rType = 0;
 		vrLen = 1743;
 		vrLoc = 4242;
@@ -915,7 +953,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 132";
 		rLen = 0;
-		rLoc = 7176;
+		rLoc = 7836;
 		rType = 0;
 		vrLen = 1850;
 		vrLoc = 4096;
@@ -925,7 +963,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 134";
 		rLen = 0;
-		rLoc = 7274;
+		rLoc = 7934;
 		rType = 0;
 		vrLen = 1795;
 		vrLoc = 4096;
@@ -935,7 +973,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 257";
 		rLen = 0;
-		rLoc = 10014;
+		rLoc = 10258;
 		rType = 0;
 		vrLen = 1310;
 		vrLoc = 6089;
@@ -945,7 +983,7 @@
 		fRef = 7870B73D12F0C1390004B078 /* ImageScrollView.h */;
 		name = "ImageScrollView.h: 64";
 		rLen = 0;
-		rLoc = 3155;
+		rLoc = 3228;
 		rType = 0;
 		vrLen = 2564;
 		vrLoc = 597;
@@ -955,7 +993,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 147";
 		rLen = 0;
-		rLoc = 7630;
+		rLoc = 8333;
 		rType = 0;
 		vrLen = 1805;
 		vrLoc = 4500;
@@ -965,7 +1003,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 137";
 		rLen = 0;
-		rLoc = 7237;
+		rLoc = 7897;
 		rType = 0;
 		vrLen = 1721;
 		vrLoc = 4388;
@@ -975,7 +1013,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 146";
 		rLen = 0;
-		rLoc = 7601;
+		rLoc = 8304;
 		rType = 0;
 		vrLen = 1733;
 		vrLoc = 4412;
@@ -1015,7 +1053,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 139";
 		rLen = 0;
-		rLoc = 7301;
+		rLoc = 7961;
 		rType = 0;
 		vrLen = 1636;
 		vrLoc = 2979;
@@ -1025,7 +1063,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 257";
 		rLen = 0;
-		rLoc = 10014;
+		rLoc = 10258;
 		rType = 0;
 		vrLen = 1309;
 		vrLoc = 6089;
@@ -1035,7 +1073,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 127";
 		rLen = 0;
-		rLoc = 5478;
+		rLoc = 5722;
 		rType = 0;
 		vrLen = 1829;
 		vrLoc = 4369;
@@ -1061,7 +1099,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 134";
 		rLen = 17;
-		rLoc = 5686;
+		rLoc = 5930;
 		rType = 0;
 		vrLen = 1857;
 		vrLoc = 4268;
@@ -1071,7 +1109,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 131";
 		rLen = 0;
-		rLoc = 5575;
+		rLoc = 5819;
 		rType = 0;
 		vrLen = 1854;
 		vrLoc = 4268;
@@ -1081,7 +1119,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 131";
 		rLen = 0;
-		rLoc = 5575;
+		rLoc = 5819;
 		rType = 0;
 		vrLen = 1846;
 		vrLoc = 4266;
@@ -1091,7 +1129,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 195";
 		rLen = 0;
-		rLoc = 9340;
+		rLoc = 10043;
 		rType = 0;
 		vrLen = 2165;
 		vrLoc = 6109;
@@ -1101,7 +1139,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 194";
 		rLen = 0;
-		rLoc = 9233;
+		rLoc = 9936;
 		rType = 0;
 		vrLen = 2074;
 		vrLoc = 6104;
@@ -1112,7 +1150,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 244;
+		rLoc = 248;
 		rType = 1;
 	};
 	78F7761E12F61362006ACE34 /* PBXTextBookmark */ = {
@@ -1120,7 +1158,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 235";
 		rLen = 0;
-		rLoc = 9040;
+		rLoc = 9284;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 8237;
@@ -1194,7 +1232,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 243";
 		rLen = 0;
-		rLoc = 9422;
+		rLoc = 9666;
 		rType = 0;
 		vrLen = 2589;
 		vrLoc = 7556;
@@ -1224,7 +1262,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 111";
 		rLen = 0;
-		rLoc = 4812;
+		rLoc = 5472;
 		rType = 0;
 		vrLen = 2006;
 		vrLoc = 2635;
@@ -1234,7 +1272,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 77";
 		rLen = 0;
-		rLoc = 3618;
+		rLoc = 3640;
 		rType = 0;
 		vrLen = 2006;
 		vrLoc = 2635;
@@ -1244,7 +1282,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 89";
 		rLen = 0;
-		rLoc = 3763;
+		rLoc = 3666;
 		rType = 0;
 		vrLen = 2055;
 		vrLoc = 2708;
@@ -1254,7 +1292,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 243";
 		rLen = 0;
-		rLoc = 9422;
+		rLoc = 9666;
 		rType = 0;
 		vrLen = 2589;
 		vrLoc = 7556;
@@ -1264,7 +1302,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 75";
 		rLen = 0;
-		rLoc = 3591;
+		rLoc = 3464;
 		rType = 0;
 		vrLen = 1666;
 		vrLoc = 2626;
@@ -1274,7 +1312,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 75";
 		rLen = 0;
-		rLoc = 3591;
+		rLoc = 3464;
 		rType = 0;
 		vrLen = 1666;
 		vrLoc = 2626;
@@ -1284,7 +1322,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 89";
 		rLen = 0;
-		rLoc = 3763;
+		rLoc = 3666;
 		rType = 0;
 		vrLen = 2055;
 		vrLoc = 2708;
@@ -1294,7 +1332,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 89";
 		rLen = 0;
-		rLoc = 3763;
+		rLoc = 3666;
 		rType = 0;
 		vrLen = 2055;
 		vrLoc = 2708;
@@ -1304,7 +1342,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 78";
 		rLen = 0;
-		rLoc = 3949;
+		rLoc = 3965;
 		rType = 0;
 		vrLen = 1664;
 		vrLoc = 2626;
@@ -1314,7 +1352,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 89";
 		rLen = 0;
-		rLoc = 3763;
+		rLoc = 3666;
 		rType = 0;
 		vrLen = 2055;
 		vrLoc = 2708;
@@ -1324,7 +1362,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 78";
 		rLen = 0;
-		rLoc = 3618;
+		rLoc = 3640;
 		rType = 0;
 		vrLen = 2045;
 		vrLoc = 2708;
@@ -1334,7 +1372,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 196";
 		rLen = 0;
-		rLoc = 7493;
+		rLoc = 8196;
 		rType = 0;
 		vrLen = 2056;
 		vrLoc = 6016;
@@ -1344,7 +1382,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 184";
 		rLen = 0;
-		rLoc = 7493;
+		rLoc = 8196;
 		rType = 0;
 		vrLen = 2056;
 		vrLoc = 6016;
@@ -1354,7 +1392,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 184";
 		rLen = 0;
-		rLoc = 7493;
+		rLoc = 8196;
 		rType = 0;
 		vrLen = 2056;
 		vrLoc = 6016;
@@ -1364,7 +1402,7 @@
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 78";
 		rLen = 0;
-		rLoc = 3526;
+		rLoc = 3124;
 		rType = 0;
 		vrLen = 1858;
 		vrLoc = 2590;
@@ -1383,8 +1421,8 @@
 		isa = PBXTextBookmark;
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 87";
-		rLen = 316;
-		rLoc = 3644;
+		rLen = 0;
+		rLoc = 3666;
 		rType = 0;
 		vrLen = 1796;
 		vrLoc = 2566;
@@ -1394,7 +1432,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 79";
 		rLen = 0;
-		rLoc = 3878;
+		rLoc = 3464;
 		rType = 0;
 		vrLen = 1825;
 		vrLoc = 2626;
@@ -1404,7 +1442,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 95";
 		rLen = 0;
-		rLoc = 4442;
+		rLoc = 4108;
 		rType = 0;
 		vrLen = 1840;
 		vrLoc = 2626;
@@ -1414,7 +1452,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 95";
 		rLen = 0;
-		rLoc = 4442;
+		rLoc = 4108;
 		rType = 0;
 		vrLen = 1840;
 		vrLoc = 2626;
@@ -1424,7 +1462,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 95";
 		rLen = 0;
-		rLoc = 4442;
+		rLoc = 4108;
 		rType = 0;
 		vrLen = 1840;
 		vrLoc = 2626;
@@ -1443,8 +1481,8 @@
 		isa = PBXTextBookmark;
 		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
 		name = "ImageScrollView.m: 74";
-		rLen = 41;
-		rLoc = 3387;
+		rLen = 0;
+		rLoc = 3124;
 		rType = 0;
 		vrLen = 2049;
 		vrLoc = 2709;
@@ -1454,7 +1492,7 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 81";
 		rLen = 0;
-		rLoc = 3908;
+		rLoc = 3924;
 		rType = 0;
 		vrLen = 1855;
 		vrLoc = 2626;
@@ -1464,35 +1502,17 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 97";
 		rLen = 0;
-		rLoc = 4442;
+		rLoc = 4108;
 		rType = 0;
 		vrLen = 1931;
 		vrLoc = 2626;
-	};
-	78F7766812F61846006ACE34 /* PhotoViewController.m:96 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
-		functionName = "-handleDoubleTap:";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 96;
-		location = yayapage;
-		modificationTime = 318117958.948207;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
 	};
 	78F7766A12F61848006ACE34 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 97";
 		rLen = 0;
-		rLoc = 4442;
+		rLoc = 4108;
 		rType = 0;
 		vrLen = 1931;
 		vrLoc = 2626;
@@ -1502,9 +1522,407 @@
 		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
 		name = "PhotoViewController.m: 97";
 		rLen = 0;
-		rLoc = 4442;
+		rLoc = 4108;
 		rType = 0;
 		vrLen = 1931;
 		vrLoc = 2626;
+	};
+	78F7768312F764B6006ACE34 /* TapDetectingImageView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 1040}}";
+			sepNavSelRange = "{1283, 0}";
+			sepNavVisRange = "{1385, 2213}";
+		};
+	};
+	78F7768412F764B6006ACE34 /* TapDetectingImageView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1000, 2366}}";
+			sepNavSelRange = "{6331, 0}";
+			sepNavVisRange = "{5484, 1624}";
+		};
+	};
+	78F7768B12F765B1006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
+		name = "PhotoViewController.m: 83";
+		rLen = 0;
+		rLoc = 3953;
+		rType = 0;
+		vrLen = 1967;
+		vrLoc = 2590;
+	};
+	78F7768C12F765B1006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78F7768312F764B6006ACE34 /* TapDetectingImageView.h */;
+		name = "TapDetectingImageView.h: 25";
+		rLen = 0;
+		rLoc = 1283;
+		rType = 0;
+		vrLen = 2213;
+		vrLoc = 1385;
+	};
+	78F7768D12F765B1006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78F7768412F764B6006ACE34 /* TapDetectingImageView.m */;
+		name = "TapDetectingImageView.m: 10";
+		rLen = 0;
+		rLoc = 308;
+		rType = 0;
+		vrLen = 1690;
+		vrLoc = 5418;
+	};
+	78F7768E12F765B1006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73D12F0C1390004B078 /* ImageScrollView.h */;
+		name = "ImageScrollView.h: 55";
+		rLen = 0;
+		rLoc = 2770;
+		rType = 0;
+		vrLen = 2637;
+		vrLoc = 597;
+	};
+	78F7768F12F765B1006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		name = "ImageScrollView.m: 52";
+		rLen = 0;
+		rLoc = 2589;
+		rType = 0;
+		vrLen = 1679;
+		vrLoc = 2353;
+	};
+	78F7769012F765B1006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		name = "ImageScrollView.m: 58";
+		rLen = 0;
+		rLoc = 2740;
+		rType = 0;
+		vrLen = 1612;
+		vrLoc = 2452;
+	};
+	78F7769612F765EA006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		name = "ImageScrollView.m: 58";
+		rLen = 0;
+		rLoc = 2740;
+		rType = 0;
+		vrLen = 1612;
+		vrLoc = 2452;
+	};
+	78F7769712F765EA006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78F7768412F764B6006ACE34 /* TapDetectingImageView.m */;
+		name = "TapDetectingImageView.m: 156";
+		rLen = 0;
+		rLoc = 6282;
+		rType = 0;
+		vrLen = 1842;
+		vrLoc = 5243;
+	};
+	78F7769812F765EA006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78F7768412F764B6006ACE34 /* TapDetectingImageView.m */;
+		name = "TapDetectingImageView.m: 156";
+		rLen = 0;
+		rLoc = 6282;
+		rType = 0;
+		vrLen = 1842;
+		vrLoc = 5243;
+	};
+	78F7769F12F7673C006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78F7768412F764B6006ACE34 /* TapDetectingImageView.m */;
+		name = "TapDetectingImageView.m: 156";
+		rLen = 0;
+		rLoc = 6282;
+		rType = 0;
+		vrLen = 1842;
+		vrLoc = 5243;
+	};
+	78F776A012F7673C006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		name = "ImageScrollView.m: 58";
+		rLen = 0;
+		rLoc = 2740;
+		rType = 0;
+		vrLen = 1612;
+		vrLoc = 2452;
+	};
+	78F776A112F7673C006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		name = "ImageScrollView.m: 117";
+		rLen = 0;
+		rLoc = 4946;
+		rType = 0;
+		vrLen = 2203;
+		vrLoc = 3665;
+	};
+	78F776A412F7677A006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
+		name = "PhotoViewController.m: 245";
+		rLen = 0;
+		rLoc = 9284;
+		rType = 0;
+		vrLen = 1558;
+		vrLoc = 7972;
+	};
+	78F776AB12F767FF006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73D12F0C1390004B078 /* ImageScrollView.h */;
+		name = "ImageScrollView.h: 52";
+		rLen = 0;
+		rLoc = 2707;
+		rType = 0;
+		vrLen = 2637;
+		vrLoc = 597;
+	};
+	78F776AC12F767FF006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		name = "ImageScrollView.m: 106";
+		rLen = 0;
+		rLoc = 4462;
+		rType = 0;
+		vrLen = 1907;
+		vrLoc = 3388;
+	};
+	78F776AD12F767FF006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		name = "ImageScrollView.m: 106";
+		rLen = 0;
+		rLoc = 4462;
+		rType = 0;
+		vrLen = 1907;
+		vrLoc = 3388;
+	};
+	78F776B312F7684B006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		name = "ImageScrollView.m: 105";
+		rLen = 0;
+		rLoc = 4365;
+		rType = 0;
+		vrLen = 2110;
+		vrLoc = 3490;
+	};
+	78F776B412F7684B006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78F7768412F764B6006ACE34 /* TapDetectingImageView.m */;
+		name = "TapDetectingImageView.m: 146";
+		rLen = 0;
+		rLoc = 6071;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 5484;
+	};
+	78F776B512F7684B006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78F7768412F764B6006ACE34 /* TapDetectingImageView.m */;
+		name = "TapDetectingImageView.m: 146";
+		rLen = 0;
+		rLoc = 6071;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 5484;
+	};
+	78F776BA12F76884006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78F7768412F764B6006ACE34 /* TapDetectingImageView.m */;
+		name = "TapDetectingImageView.m: 146";
+		rLen = 0;
+		rLoc = 6071;
+		rType = 0;
+		vrLen = 1610;
+		vrLoc = 5498;
+	};
+	78F776BB12F76884006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78F7768412F764B6006ACE34 /* TapDetectingImageView.m */;
+		name = "TapDetectingImageView.m: 146";
+		rLen = 0;
+		rLoc = 6071;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 5484;
+	};
+	78F776C112F768B6006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78F7768412F764B6006ACE34 /* TapDetectingImageView.m */;
+		name = "TapDetectingImageView.m: 146";
+		rLen = 0;
+		rLoc = 6071;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 5484;
+	};
+	78F776C212F768B6006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
+		name = "PhotoViewController.m: 83";
+		rLen = 0;
+		rLoc = 3953;
+		rType = 0;
+		vrLen = 1930;
+		vrLoc = 2627;
+	};
+	78F776C312F768B6006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
+		name = "PhotoViewController.m: 89";
+		rLen = 372;
+		rLoc = 4108;
+		rType = 0;
+		vrLen = 1579;
+		vrLoc = 3246;
+	};
+	78F776C512F768D0006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
+		name = "PhotoViewController.m: 89";
+		rLen = 372;
+		rLoc = 4108;
+		rType = 0;
+		vrLen = 1579;
+		vrLoc = 3246;
+	};
+	78F776C612F768D0006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78F7768412F764B6006ACE34 /* TapDetectingImageView.m */;
+		rLen = 0;
+		rLoc = 159;
+		rType = 1;
+	};
+	78F776C712F768D0006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78F7768412F764B6006ACE34 /* TapDetectingImageView.m */;
+		name = "TapDetectingImageView.m: 160";
+		rLen = 0;
+		rLoc = 6331;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 5484;
+	};
+	78F776C812F768E6006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78F7768412F764B6006ACE34 /* TapDetectingImageView.m */;
+		name = "TapDetectingImageView.m: 160";
+		rLen = 0;
+		rLoc = 6331;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 5484;
+	};
+	78F776C912F768E6006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		rLen = 0;
+		rLoc = 102;
+		rType = 1;
+	};
+	78F776CA12F768E6006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		name = "ImageScrollView.m: 107";
+		rLen = 0;
+		rLoc = 4463;
+		rType = 0;
+		vrLen = 2110;
+		vrLoc = 3490;
+	};
+	78F776CD12F76977006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		name = "ImageScrollView.m: 100";
+		rLen = 0;
+		rLoc = 4335;
+		rType = 0;
+		vrLen = 1772;
+		vrLoc = 2512;
+	};
+	78F776CE12F76977006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
+		name = "PhotoViewController.m: 103";
+		rLen = 0;
+		rLoc = 4689;
+		rType = 0;
+		vrLen = 1706;
+		vrLoc = 3246;
+	};
+	78F776CF12F76977006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73F12F0C1390004B078 /* PhotoViewController.h */;
+		name = "PhotoViewController.h: 81";
+		rLen = 0;
+		rLoc = 3618;
+		rType = 0;
+		vrLen = 1782;
+		vrLoc = 1817;
+	};
+	78F776D012F76977006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73F12F0C1390004B078 /* PhotoViewController.h */;
+		name = "PhotoViewController.h: 53";
+		rLen = 0;
+		rLoc = 2715;
+		rType = 0;
+		vrLen = 1776;
+		vrLoc = 1888;
+	};
+	78F776D412F76A9D006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73F12F0C1390004B078 /* PhotoViewController.h */;
+		name = "PhotoViewController.h: 53";
+		rLen = 0;
+		rLoc = 2715;
+		rType = 0;
+		vrLen = 1776;
+		vrLoc = 1888;
+	};
+	78F776D512F76A9D006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B74012F0C1390004B078 /* PhotoViewController.m */;
+		name = "PhotoViewController.m: 95";
+		rLen = 0;
+		rLoc = 4362;
+		rType = 0;
+		vrLen = 1828;
+		vrLoc = 2470;
+	};
+	78F776D612F76A9D006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		name = "ImageScrollView.m: 100";
+		rLen = 0;
+		rLoc = 4335;
+		rType = 0;
+		vrLen = 1772;
+		vrLoc = 2512;
+	};
+	78F776D712F76A9D006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		name = "ImageScrollView.m: 127";
+		rLen = 0;
+		rLoc = 5576;
+		rType = 0;
+		vrLen = 2006;
+		vrLoc = 3735;
+	};
+	78F776DB12F76AD5006ACE34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7870B73E12F0C1390004B078 /* ImageScrollView.m */;
+		name = "ImageScrollView.m: 126";
+		rLen = 0;
+		rLoc = 5508;
+		rType = 0;
+		vrLen = 1978;
+		vrLoc = 3817;
 	};
 }

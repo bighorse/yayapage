@@ -68,33 +68,47 @@
         self.delegate = self;   
 		
 		// add gesture recognizers to the image view
-		UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDoubleTap:)];
-		UITapGestureRecognizer *twoFingerTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTwoFingerTap:)];
-		
-		[doubleTap setNumberOfTapsRequired:2];
-		[twoFingerTap setNumberOfTouchesRequired:2];
-		
-		[self addGestureRecognizer:doubleTap];
-		[self addGestureRecognizer:twoFingerTap];
-		
-		[doubleTap release];
-		[twoFingerTap release];
+//		UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDoubleTap:)];
+//		UITapGestureRecognizer *twoFingerTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTwoFingerTap:)];
+//		
+//		[doubleTap setNumberOfTapsRequired:2];
+//		[twoFingerTap setNumberOfTouchesRequired:2];
+//		
+//		[self addGestureRecognizer:doubleTap];
+//		[self addGestureRecognizer:twoFingerTap];
+//		
+//		[doubleTap release];
+//		[twoFingerTap release];
 		
     }
     return self;
 }
 
-- (void)handleDoubleTap:(UIGestureRecognizer *)gestureRecognizer {
+//- (void)handleDoubleTap:(UIGestureRecognizer *)gestureRecognizer {
+//    // double tap zooms in
+//    float newScale = [self zoomScale] * ZOOM_STEP;
+//    CGRect zoomRect = [self zoomRectForScale:newScale withCenter:[gestureRecognizer locationInView:gestureRecognizer.view]];
+//    [self zoomToRect:zoomRect animated:YES];
+//}
+//
+//- (void)handleTwoFingerTap:(UIGestureRecognizer *)gestureRecognizer {
+//    // two-finger tap zooms out
+//    float newScale = [self zoomScale] / ZOOM_STEP;
+//    CGRect zoomRect = [self zoomRectForScale:newScale withCenter:[gestureRecognizer locationInView:gestureRecognizer.view]];
+//    [self zoomToRect:zoomRect animated:YES];
+//}
+
+- (void)tapDetectingImageView:(TapDetectingImageView *)view gotDoubleTapAtPoint:(CGPoint)tapPoint {
     // double tap zooms in
     float newScale = [self zoomScale] * ZOOM_STEP;
-    CGRect zoomRect = [self zoomRectForScale:newScale withCenter:[gestureRecognizer locationInView:gestureRecognizer.view]];
+    CGRect zoomRect = [self zoomRectForScale:newScale withCenter:tapPoint];
     [self zoomToRect:zoomRect animated:YES];
 }
 
-- (void)handleTwoFingerTap:(UIGestureRecognizer *)gestureRecognizer {
+- (void)tapDetectingImageView:(TapDetectingImageView *)view gotTwoFingerTapAtPoint:(CGPoint)tapPoint {
     // two-finger tap zooms out
     float newScale = [self zoomScale] / ZOOM_STEP;
-    CGRect zoomRect = [self zoomRectForScale:newScale withCenter:[gestureRecognizer locationInView:gestureRecognizer.view]];
+    CGRect zoomRect = [self zoomRectForScale:newScale withCenter:tapPoint];
     [self zoomToRect:zoomRect animated:YES];
 }
 
@@ -192,7 +206,8 @@
 	[self processImageDataWithBlock:^(NSData *imageData) {
 		if (self.window) {
 			UIImage *image = [UIImage imageWithData:imageData];
-			imageView = [[UIImageView alloc] initWithImage:image];
+			imageView = [[TapDetectingImageView alloc] initWithImage:image];
+			[imageView setDelegate:self];
 			[self addSubview:imageView];			
 			self.contentSize = [image size];
 			[self setMaxMinZoomScalesForCurrentBounds];

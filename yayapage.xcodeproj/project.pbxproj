@@ -24,6 +24,7 @@
 		78BE565112E8DB00006A3074 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE564A12E8DB00006A3074 /* SBJsonParser.m */; };
 		78BE565212E8DB00006A3074 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE564C12E8DB00006A3074 /* SBJsonWriter.m */; };
 		78BE567012E8E0A4006A3074 /* TagListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */; };
+		78F7768512F764B6006ACE34 /* TapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F7768412F764B6006ACE34 /* TapDetectingImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,8 @@
 		78BE564C12E8DB00006A3074 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		78BE566E12E8E0A4006A3074 /* TagListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListTableViewController.h; sourceTree = "<group>"; };
 		78BE566F12E8E0A4006A3074 /* TagListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagListTableViewController.m; sourceTree = "<group>"; };
+		78F7768312F764B6006ACE34 /* TapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapDetectingImageView.h; sourceTree = "<group>"; };
+		78F7768412F764B6006ACE34 /* TapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapDetectingImageView.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* yayapage-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "yayapage-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +83,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				78F7768312F764B6006ACE34 /* TapDetectingImageView.h */,
+				78F7768412F764B6006ACE34 /* TapDetectingImageView.m */,
 				7870B73D12F0C1390004B078 /* ImageScrollView.h */,
 				7870B73E12F0C1390004B078 /* ImageScrollView.m */,
 				7870B73F12F0C1390004B078 /* PhotoViewController.h */,
@@ -239,6 +244,7 @@
 				78BE567012E8E0A4006A3074 /* TagListTableViewController.m in Sources */,
 				7870B74112F0C1390004B078 /* ImageScrollView.m in Sources */,
 				7870B74212F0C1390004B078 /* PhotoViewController.m in Sources */,
+				78F7768512F764B6006ACE34 /* TapDetectingImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

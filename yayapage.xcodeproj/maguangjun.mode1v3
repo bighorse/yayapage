@@ -299,7 +299,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>547 152 1269 874 0 0 1920 1058 </string>
+						<string>589 153 1269 874 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>PhotoViewController.m</string>
+								<string>ImageScrollView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>PhotoViewController.m</string>
+										<string>ImageScrollView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>78F7766B12F61848006ACE34</string>
+										<string>78F776DB12F76AD5006ACE34</string>
 										<key>history</key>
 										<array>
 											<string>7830258912E3A2A50027325D</string>
@@ -343,17 +343,19 @@
 											<string>7870B75C12F0CEC80004B078</string>
 											<string>7870B76012F0CEC80004B078</string>
 											<string>787AEEAA12F37ACD00108EF8</string>
-											<string>78F775D812F4CCCA006ACE34</string>
 											<string>78F7760312F608C9006ACE34</string>
 											<string>78F7760A12F60CC6006ACE34</string>
 											<string>78F7762912F613DF006ACE34</string>
 											<string>78F7762B12F613DF006ACE34</string>
 											<string>78F7762C12F613DF006ACE34</string>
-											<string>78F7763112F613DF006ACE34</string>
 											<string>78F7765612F616B5006ACE34</string>
 											<string>78F7766312F6182F006ACE34</string>
-											<string>78F7766412F6182F006ACE34</string>
-											<string>78F7766A12F61848006ACE34</string>
+											<string>78F7768C12F765B1006ACE34</string>
+											<string>78F776AB12F767FF006ACE34</string>
+											<string>78F776C812F768E6006ACE34</string>
+											<string>78F776D412F76A9D006ACE34</string>
+											<string>78F776D512F76A9D006ACE34</string>
+											<string>78F776D612F76A9D006ACE34</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -367,7 +369,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1061, 732}}</string>
 								<key>RubberWindowFrame</key>
-								<string>547 152 1269 874 0 0 1920 1058 </string>
+								<string>589 153 1269 874 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -387,7 +389,7 @@
 								<key>Frame</key>
 								<string>{{0, 737}, {1061, 96}}</string>
 								<key>RubberWindowFrame</key>
-								<string>547 152 1269 874 0 0 1920 1058 </string>
+								<string>589 153 1269 874 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -551,16 +553,16 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>78F7766712F6182F006ACE34</string>
+		<string>78F776DC12F76AD5006ACE34</string>
 		<string>78F7759712F4BC13006ACE34</string>
 		<string>78F7759812F4BC13006ACE34</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>7830255712E39DAE0027325D</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/maguangjun/Documents/iosapps/yayapage/yayapage.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>547 152 1269 874 0 0 1920 1058 </string>
+	<string>589 153 1269 874 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -886,6 +888,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -931,7 +935,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

@@ -1,6 +1,8 @@
+
 /*
-     File: PhotoViewController.h
- Abstract: Configures and displays the paging scroll view and handles tiling and page configuration.
+     File: TapDetectingImageView.h
+ Abstract: UIImageView subclass that responds to taps and notifies its delegate.
+ 
   Version: 1.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
@@ -45,45 +47,33 @@
  
  */
 
-#import <UIKit/UIKit.h>
-#import "TapDetectingImageView.h"
+@protocol TapDetectingImageViewDelegate;
 
-@class ImageScrollView;
 
-@interface PhotoViewController : UIViewController <UIScrollViewDelegate, TapDetectingImageViewDelegate> {
-    UIScrollView *pagingScrollView;
+@interface TapDetectingImageView : UIImageView {
+	
+    id <TapDetectingImageViewDelegate> delegate;
     
-    NSMutableSet *recycledPages;
-    NSMutableSet *visiblePages;
-
-    // these values are stored off before we start rotation so we adjust our content offset appropriately during rotation
-    int           firstVisiblePageIndexBeforeRotation;
-    CGFloat       percentScrolledIntoFirstVisiblePage;
-	
-	NSMutableArray *photoNames;
-    NSMutableArray *photoURLs;
-	NSInteger pageNumber;
-	
+    // Touch detection
+    CGPoint tapLocation;         // Needed to record location of single tap, which will only be registered after delayed perform.
+    BOOL multipleTouches;        // YES if a touch event contains more than one touch; reset when all fingers are lifted.
+    BOOL twoFingerTapIsPossible; // Set to NO when 2-finger tap can be ruled out (e.g. 3rd finger down, fingers touch down too far apart, etc).
 }
 
-- (void)configurePage:(ImageScrollView *)page forIndex:(NSUInteger)index;
-- (BOOL)isDisplayingPageForIndex:(NSUInteger)index;
+@property (nonatomic, assign) id <TapDetectingImageViewDelegate> delegate;
 
-- (CGRect)frameForPagingScrollView;
-- (CGRect)frameForPageAtIndex:(NSUInteger)index;
-- (CGSize)contentSizeForPagingScrollView;
+@end
 
-- (void)tilePagesForIndex:(NSInteger)index;
-- (ImageScrollView *)dequeueRecycledPage;
 
-- (NSUInteger)imageCount;
-//- (NSString *)imageNameAtIndex:(NSUInteger)index;
-//- (CGSize)imageSizeAtIndex:(NSUInteger)index;
-//- (UIImage *)imageAtIndex:(NSUInteger)index;
+/*
+ Protocol for the tap-detecting image view's delegate.
+ */
+@protocol TapDetectingImageViewDelegate <NSObject>
 
-@property (retain) NSMutableArray *photoNames;
-@property (retain) NSMutableArray *photoURLs;
-@property (assign) NSInteger pageNumber;
+@optional
+- (void)tapDetectingImageView:(TapDetectingImageView *)view gotSingleTapAtPoint:(CGPoint)tapPoint;
+- (void)tapDetectingImageView:(TapDetectingImageView *)view gotDoubleTapAtPoint:(CGPoint)tapPoint;
+- (void)tapDetectingImageView:(TapDetectingImageView *)view gotTwoFingerTapAtPoint:(CGPoint)tapPoint;
 
 @end
 

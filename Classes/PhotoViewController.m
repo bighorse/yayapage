@@ -71,14 +71,14 @@
 	[navbar setHidden:YES];
 	
 	// add single tap gesture to show/hide navi bar
-	UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
-	[pagingScrollView addGestureRecognizer:singleTap];
-	[singleTap release];
-    
-	UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDoubleTap:)];
-	[doubleTap setNumberOfTapsRequired:2];
-	[pagingScrollView addGestureRecognizer:doubleTap];
-	[doubleTap release];
+//	UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
+//	[pagingScrollView addGestureRecognizer:singleTap];
+//	[singleTap release];
+//    
+//	UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDoubleTap:)];
+//	[doubleTap setNumberOfTapsRequired:2];
+//	[pagingScrollView addGestureRecognizer:doubleTap];
+//	[doubleTap release];
 	
     // Step 2: prepare to tile content
     recycledPages = [[NSMutableSet alloc] init];
@@ -86,13 +86,17 @@
     [self tilePagesForIndex:pageNumber];
 }
 
-- (void)handleSingleTap:(UIGestureRecognizer *)gestureRecognizer {
-	UINavigationBar *navbar = [self.navigationController navigationBar];
-	[navbar setHidden:!navbar.hidden];
-	
-}
-
-- (void)handleDoubleTap:(UIGestureRecognizer *)gestureRecognizer {
+//- (void)handleSingleTap:(UIGestureRecognizer *)gestureRecognizer {
+//	UINavigationBar *navbar = [self.navigationController navigationBar];
+//	[navbar setHidden:!navbar.hidden];
+//	
+//}
+//
+//- (void)handleDoubleTap:(UIGestureRecognizer *)gestureRecognizer {
+//	UINavigationBar *navbar = [self.navigationController navigationBar];
+//	[navbar setHidden:!navbar.hidden];
+//}
+- (void)tapDetectingImageView:(TapDetectingImageView *)view gotSingleTapAtPoint:(CGPoint)tapPoint {
 	UINavigationBar *navbar = [self.navigationController navigationBar];
 	[navbar setHidden:!navbar.hidden];
 }

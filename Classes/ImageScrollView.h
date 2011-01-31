@@ -46,9 +46,10 @@
  */
 
 #import <UIKit/UIKit.h>
+#import "TapDetectingImageView.h"
 
-@interface ImageScrollView : UIScrollView <UIScrollViewDelegate> {
-    UIView        *imageView;
+@interface ImageScrollView : UIScrollView <UIScrollViewDelegate, TapDetectingImageViewDelegate> {
+    TapDetectingImageView	*imageView;
     NSUInteger     index;
 	UIActivityIndicatorView *spinner;
 }
