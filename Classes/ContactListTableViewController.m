@@ -20,8 +20,8 @@
 	if (!usernames) {
 		//NSURL *wordsURL = [NSURL URLWithString:@"http://cs193p.stanford.edu/vocabwords.txt"];
 		//usernames = [[NSMutableDictionary dictionaryWithContentsOfURL:wordsURL] retain];
-		NSArray *objArray = [NSArray arrayWithObjects:[NSArray arrayWithObjects: @"29435289@N00",nil], [NSArray arrayWithObjects: @"mei", @"ma", nil], nil];
-		NSArray *keyArray = [NSArray arrayWithObjects:@"2", @"m", nil];
+		NSArray *objArray = [NSArray arrayWithObjects:[NSArray arrayWithObjects: @"29435289@N00",nil], [NSArray arrayWithObjects: @"mei", @"ma", nil], [NSArray arrayWithObjects: @"yaya",nil], nil];
+		NSArray *keyArray = [NSArray arrayWithObjects:@"2", @"m", @"y", nil];
 		usernames = [[NSMutableDictionary dictionaryWithObjects:objArray forKeys:keyArray] retain];
 		
 	}

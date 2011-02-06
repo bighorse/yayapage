@@ -19,18 +19,18 @@
 {
 	// Construct a Flickr API request.
 	// Important! Enter your Flickr API key in FlickrAPIKey.h
-    NSString *urlString = [NSString stringWithFormat:@"http://api.flickr.com/services/rest/?method=flickr.tags.getListUser&api_key=%@&user_id=%@&per_page=10&format=json&nojsoncallback=1", FlickrAPIKey, self.userName];
-    NSURL *url = [NSURL URLWithString:urlString];
+    NSString *urlString = [NSString stringWithFormat:@"http://localhost:3000/api/v1/tag_list/users/%@", self.userName];
+	NSURL *url = [NSURL URLWithString:urlString];
     // Get the contents of the URL as a string, and parse the JSON into Foundation objects.
     NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
-    NSDictionary *results = [jsonString JSONValue];
+    NSArray *results = [jsonString JSONValue];
 	
     // Now we need to dig through the resulting objects.
     // Read the documentation and make liberal use of the debugger or logs.
-    NSArray *tags = [[[results objectForKey:@"who"] objectForKey:@"tags"] objectForKey:@"tag"];
-    for (NSDictionary *tag in tags) {
+    for (NSDictionary *item in results) {
+		NSDictionary *tag = [item objectForKey:@"tag"];
         // Get the name for each tag
-        NSString *name = [tag objectForKey:@"_content"];
+        NSString *name = [tag objectForKey:@"name"];
         [tagNames addObject:(name.length > 0 ? name : @"Untitled")];
     }   
 }
